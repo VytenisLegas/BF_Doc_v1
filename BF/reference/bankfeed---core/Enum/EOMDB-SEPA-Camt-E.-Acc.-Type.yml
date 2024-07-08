@@ -1,0 +1,20 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB SEPA Camt E. Acc. Type"'
+alId: ID 70656778
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+enumValues:
+- name: '" "'
+  uid: E:Enum::EOMDB_SEPA_Camt_E#_Acc#_Type._
+- name: Customer
+  uid: E:Enum::EOMDB_SEPA_Camt_E#_Acc#_Type.Customer
+- name: Vendor
+  uid: E:Enum::EOMDB_SEPA_Camt_E#_Acc#_Type.Vendor
+commentId: O:Enum::EOMDB SEPA Camt E# Acc# Type
+name: '"EOMDB SEPA Camt E. Acc. Type"'
+uid: O:Enum::EOMDB_SEPA_Camt_E#_Acc#_Type

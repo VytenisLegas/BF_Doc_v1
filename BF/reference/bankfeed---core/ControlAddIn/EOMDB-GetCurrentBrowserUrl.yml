@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB GetCurrentBrowserUrl"'
+baseKind: ControlAddIn
+kind: ControlAddIn
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[ControlAddIn](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-object)'
+methods:
+- syntax:
+    content: procedure GetUrl()
+  name: GetUrl
+  uid: M:ControlAddIn::EOMDB_GetCurrentBrowserUrl.GetUrl
+commentId: O:ControlAddIn::EOMDB GetCurrentBrowserUrl
+name: '"EOMDB GetCurrentBrowserUrl"'
+uid: O:ControlAddIn::EOMDB_GetCurrentBrowserUrl

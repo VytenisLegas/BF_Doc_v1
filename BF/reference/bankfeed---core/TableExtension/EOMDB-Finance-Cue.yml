@@ -1,0 +1,49 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Finance Cue"'
+alId: ID 70656775
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  name: '"EOMDB No. of Recv. Fin. Stmts."'
+  uid: F:TableExtension::EOMDB_Finance_Cue.EOMDB_No#_of_Recv#_Fin#_Stmts#
+- type:
+    name: Integer
+    isExternal: true
+  name: '"EOMDB No. of Conn. Bank Acc."'
+  uid: F:TableExtension::EOMDB_Finance_Cue.EOMDB_No#_of_Conn#_Bank_Acc#
+- type:
+    name: Integer
+    isExternal: true
+  name: '"EOMDB No. of Stmt. Lines"'
+  uid: F:TableExtension::EOMDB_Finance_Cue.EOMDB_No#_of_Stmt#_Lines
+- type:
+    name: Integer
+    isExternal: true
+  name: '"EOMDB No. of Journal Lines"'
+  uid: F:TableExtension::EOMDB_Finance_Cue.EOMDB_No#_of_Journal_Lines
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"EOMDB Date-Time Filter"'
+  uid: F:TableExtension::EOMDB_Finance_Cue.EOMDB_Date-Time_Filter
+- type:
+    name: Integer
+    isExternal: true
+  name: '"EOMDB No. of Log Errors Today"'
+  uid: F:TableExtension::EOMDB_Finance_Cue.EOMDB_No#_of_Log_Errors_Today
+- type:
+    name: Integer
+    isExternal: true
+  name: '"EOMDB No. of JQ Errors Today"'
+  uid: F:TableExtension::EOMDB_Finance_Cue.EOMDB_No#_of_JQ_Errors_Today
+commentId: O:TableExtension::EOMDB Finance Cue
+name: '"EOMDB Finance Cue"'
+uid: O:TableExtension::EOMDB_Finance_Cue

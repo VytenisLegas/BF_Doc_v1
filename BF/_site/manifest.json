@@ -1,0 +1,1646 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/MyThings/BF_ALDoc/Doc/BF",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Codeunit/EOMDB-BDPO-Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Codeunit/EOMDB-BDPO-Context.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Bank-Statement-Mgt..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Bank-Statement-Mgt..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Bound-Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Bound-Logger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Fill-Journal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Fill-Journal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Functions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Functions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Http-Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Http-Helper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Payment-Export-Factory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Payment-Export-Factory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Payment-Exporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Payment-Exporter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Payment-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Payment-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Progress-Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Progress-Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Telemetry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Codeunit/EOMDB-Telemetry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/ControlAddIn/EOMDB-GetCurrentBrowserUrl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/ControlAddIn/EOMDB-GetCurrentBrowserUrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Account-Recognition-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Account-Recognition-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Bank-Account-Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Bank-Account-Context.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Bank-Charge-Amount-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Bank-Charge-Amount-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Bank-Data-Provider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Bank-Data-Provider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Doc.-Blob-Doc.-Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Doc.-Blob-Doc.-Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Document-Blob-Source.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Document-Blob-Source.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Document-Blob-Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Document-Blob-Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Download-Pattern.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Download-Pattern.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Ext.-Recognition-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Ext.-Recognition-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Financial-Statement-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Financial-Statement-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Journal-Description-from.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Journal-Description-from.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Log-Entry-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Log-Entry-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Operation-Date-Source.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Operation-Date-Source.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Payment-Account-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Payment-Account-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Payment-Exporter-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Payment-Exporter-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Payment-Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Payment-Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Recognition-Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Recognition-Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-Runner-Operation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-Runner-Operation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-SEPA-Camt-E.-Acc.-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-SEPA-Camt-E.-Acc.-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Enum/EOMDB-SEPA-Camt-Entry-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Enum/EOMDB-SEPA-Camt-Entry-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/EnumExtension/EOMDB-LBCLIC-Product.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/EnumExtension/EOMDB-LBCLIC-Product.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/EnumExtension/EOMDB-Video-Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/EnumExtension/EOMDB-Video-Category.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Interface/EOMDB-Bank-Data-Provider-V1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Interface/EOMDB-Bank-Data-Provider-V1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Interface/EOMDB-Bank-Data-Provider-V2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Interface/EOMDB-Bank-Data-Provider-V2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Interface/EOMDB-Payment-Exporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Interface/EOMDB-Payment-Exporter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Module/Bankfeed---Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Module/Bankfeed---Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/bankfeed---core/Obsoletion/obsolete_by_22.0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Obsoletion/obsolete_by_22.0.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/bankfeed---core/Obsoletion/obsolete_by_23.0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Obsoletion/obsolete_by_23.0.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/bankfeed---core/Obsoletion/obsolete_by_[Untagged].yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Obsoletion/obsolete_by_[Untagged].html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Account-Balances-FactBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Account-Balances-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Bank-Account-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Bank-Account-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Bank-Charge-Recog.-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Bank-Charge-Recog.-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Bank-Data-Providers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Bank-Data-Providers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Bank-Statement-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Bank-Statement-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Bank-Statement-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Bank-Statement-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Bank-Statements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Bank-Statements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Change-Api-Key.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Change-Api-Key.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Connected-Bank-Accounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Connected-Bank-Accounts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Connection-Setup-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Connection-Setup-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Countries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Countries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Dev-Tools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Dev-Tools.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Doc.-Recognition-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Doc.-Recognition-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Document-Blobs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Document-Blobs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Docura-Connect-Auth..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Docura-Connect-Auth..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Institutions-Part.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Institutions-Part.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Integration-Setup-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Integration-Setup-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Integration-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Integration-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Line-Rec.-Doc.-FactBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Line-Rec.-Doc.-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Log-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Log-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Organization-Lookup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Organization-Lookup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Organizations-Part.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Organizations-Part.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-P.-Line-Rec.Doc.-FactBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-P.-Line-Rec.Doc.-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Payment-Register-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Payment-Register-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Payment-Registers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Payment-Registers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Posted-Statement-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Posted-Statement-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Posted-Stmt.-Lines-Subf..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Posted-Stmt.-Lines-Subf..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Posted-Stmt.-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Posted-Stmt.-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Posted-Stmt.Ln.-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Posted-Stmt.Ln.-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Recogn.-Document-FactBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Recogn.-Document-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Recognized-Doc.-FactBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Recognized-Doc.-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Setup-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Setup-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Statement-Lines-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Statement-Lines-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Statement-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Statement-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Statements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Statements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Stmt.-Lines-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Stmt.-Lines-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Stmt.-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Stmt.-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Page/EOMDB-Text-to-Account-Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Page/EOMDB-Text-to-Account-Mapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Accountant-Activities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Accountant-Activities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Accountant-Role-Center.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Accountant-Role-Center.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Bank-Acc.-Reconciliation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Bank-Acc.-Reconciliation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Bank-Account-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Bank-Account-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Bank-Account-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Bank-Account-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Cash-Receipt-Journal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Cash-Receipt-Journal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Credit-Transf.-Registers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Credit-Transf.-Registers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Customer-Ledger-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Customer-Ledger-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Gen.-Journal-Batches.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Gen.-Journal-Batches.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Gen.-Journal-Templates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Gen.-Journal-Templates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Payment-Journal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Payment-Journal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Payment-Reconc.-Journal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Payment-Reconc.-Journal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Posted-Payment-Reconc..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Posted-Payment-Reconc..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Pstd.Pmt.Recon.-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Pstd.Pmt.Recon.-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Vendor-Ledger-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PageExtension/EOMDB-Vendor-Ledger-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/PermissionSet/EOMDB-SUPER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/PermissionSet/EOMDB-SUPER.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Bank-Acc.-Recognitions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Bank-Acc.-Recognitions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Bank-Accounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Bank-Accounts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Bank-Statement-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Bank-Statement-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Bank-Statement-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Bank-Statement-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-CV-Recognition-Applied.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-CV-Recognition-Applied.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Cust.-Ledger-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Cust.-Ledger-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Customer-Applications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Customer-Applications.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Customer-Bank-Accounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Customer-Bank-Accounts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Customer-Recognitions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Customer-Recognitions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Customers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Customers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-G-L-Accounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-G-L-Accounts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Text-to-Account-Mappings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Text-to-Account-Mappings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Vendor-Applications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Vendor-Applications.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Vendor-Bank-Accounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Vendor-Bank-Accounts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Vendor-Ledger-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Vendor-Ledger-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Vendor-Recognitions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Vendor-Recognitions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Query/EOMDB-Vendors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Query/EOMDB-Vendors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Report/EOMDB-Apply-Statement-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Report/EOMDB-Apply-Statement-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Report/EOMDB-Delete-Bank-Statements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Report/EOMDB-Delete-Bank-Statements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Report/EOMDB-Edit-Bank-Stmt.-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Report/EOMDB-Edit-Bank-Stmt.-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Report/EOMDB-Edit-Statement-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Report/EOMDB-Edit-Statement-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Report/EOMDB-Parse-Fin.-Statements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Report/EOMDB-Parse-Fin.-Statements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Report/EOMDB-Process-Fin.-Statements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Report/EOMDB-Process-Fin.-Statements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Report/EOMDB-Runner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Report/EOMDB-Runner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Report/EOMDB-Suggest-Reconc.-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Report/EOMDB-Suggest-Reconc.-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Report/EOMDB-Update-Old-CV-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Report/EOMDB-Update-Old-CV-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Report/EOMDB-Upload-Fin.-Statement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Report/EOMDB-Upload-Fin.-Statement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Bank-Charge-Recog.-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Bank-Charge-Recog.-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Bank-Data-Provider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Bank-Data-Provider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Bank-Statement-Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Bank-Statement-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Bank-Statement-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Bank-Statement-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Bank-Statement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Bank-Statement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Bank.-Acc.-Bal.-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Bank.-Acc.-Bal.-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Banking-Account-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Banking-Account-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Country-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Country-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Doc.-Recognition-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Doc.-Recognition-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Document-Blob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Document-Blob.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Institution-Buffer-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Institution-Buffer-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Integration-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Integration-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Line-Recognized-Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Line-Recognized-Document.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Log-Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Log-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Organization-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Organization-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Payment-Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Payment-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Payment-Register.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Payment-Register.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Posted-Line-Rec.Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Posted-Line-Rec.Document.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Posted-Statement-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Posted-Statement-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Posted-Stmt.-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Posted-Stmt.-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Proc.-Bank-Data-Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Proc.-Bank-Data-Options.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Recogn.-Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Recogn.-Document.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Recognized-Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Recognized-Document.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-SEPA-Camt-Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-SEPA-Camt-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Statement-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Statement-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Stmt.-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Stmt.-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/Table/EOMDB-Text-to-Account-Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/Table/EOMDB-Text-to-Account-Mapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Bank-Acc.-Reconc.-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Bank-Acc.-Reconc.-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Bank-Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Bank-Account.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Credit-Transfer-Register.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Credit-Transfer-Register.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Cust.-Ledger-Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Cust.-Ledger-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Finance-Cue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Finance-Cue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Gen.-Journal-Batch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Gen.-Journal-Batch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Gen.-Journal-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Gen.-Journal-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Gen.-Journal-Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Gen.-Journal-Template.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Posted-Pmt.-Recon.-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Posted-Pmt.-Recon.-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Vendor-Ledger-Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/TableExtension/EOMDB-Vendor-Ledger-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/bankfeed---core/XmlPort/EOMDB-Payment-Register-Export.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/bankfeed---core/XmlPort/EOMDB-Payment-Register-Export.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

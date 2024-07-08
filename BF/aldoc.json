@@ -1,0 +1,10 @@
+﻿{
+  "Modules": [
+    {
+      "AppId": "8051ee19-8246-489f-9f2c-4d89e1710f7e",
+      "Name": "Bankfeed - Core",
+      "Publisher": "Softera Baltic",
+      "Version": "220.0.23.0"
+    }
+  ]
+}

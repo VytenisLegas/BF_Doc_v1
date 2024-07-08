@@ -1,0 +1,111 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Charge Recog. Setup"'
+alId: ID 70656783
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Bank Charge Recognition Setup (Bankfeed)
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Bank Charge Recog. Setup
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Bank_Charge_Recog#_Setup
+    name: '"EOMDB Bank Charge Recog. Setup"'
+    isExternal: false
+- name: DrillDownPageId
+  value: EOMDB Bank Charge Recog. Setup
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Bank_Charge_Recog#_Setup
+    name: '"EOMDB Bank Charge Recog. Setup"'
+    isExternal: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Line No."'
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.Line_No#
+- type:
+    name: Text[4]
+    isExternal: true
+  name: '"Transaction Domain Code"'
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.Transaction_Domain_Code[4]
+- type:
+    name: Text[4]
+    isExternal: true
+  name: '"Transaction Subfamily Code"'
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.Transaction_Subfamily_Code[4]
+- type:
+    name: Option
+    isExternal: true
+  name: '"Credit/Debit Indicator"'
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.Credit/Debit_Indicator
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"Amount Pattern"'
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.Amount_Pattern[100]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"Amount Format"'
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.Amount_Format[100]
+- type:
+    internalReference: O:Enum::EOMDB_Bank_Charge_Amount_Type
+    name: '"EOMDB Bank Charge Amount Type"'
+    isExternal: false
+  name: '"Recognized Amount Type"'
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.Recognized_Amount_Type
+- type:
+    name: __MissingTypeSymbol__
+    isExternal: true
+  name: '"Recognized Account Type"'
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.Recognized_Account_Type
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Recognized Account No."'
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.Recognized_Account_No#[20]
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Bank_Charge_Recog#_Setup.SystemRowVersion
+commentId: O:Table::EOMDB Bank Charge Recog# Setup
+name: '"EOMDB Bank Charge Recog. Setup"'
+uid: O:Table::EOMDB_Bank_Charge_Recog#_Setup

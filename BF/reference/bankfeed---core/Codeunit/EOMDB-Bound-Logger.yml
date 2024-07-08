@@ -1,0 +1,85 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bound Logger"'
+alId: ID 70656788
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: EventSubscriberInstance
+  value: Manual
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure Start(var BoundLogger: Codeunit "EOMDB Bound Logger")'
+    parameters:
+    - id: BoundLogger
+      parameterType:
+        internalReference: O:Codeunit::EOMDB_Bound_Logger
+        name: '"EOMDB Bound Logger"'
+        isExternal: false
+  name: Start
+  uid: M:Codeunit::EOMDB_Bound_Logger.Start(Codeunit::EOMDB_Bound_Logger@)
+- syntax:
+    content: 'procedure Stop(var BoundLogger: Codeunit "EOMDB Bound Logger")'
+    parameters:
+    - id: BoundLogger
+      parameterType:
+        internalReference: O:Codeunit::EOMDB_Bound_Logger
+        name: '"EOMDB Bound Logger"'
+        isExternal: false
+  name: Stop
+  uid: M:Codeunit::EOMDB_Bound_Logger.Stop(Codeunit::EOMDB_Bound_Logger@)
+- syntax:
+    content: 'procedure Info(Description: Text)'
+    parameters:
+    - id: Description
+      parameterType:
+        name: Text
+        isExternal: true
+  name: Info
+  uid: M:Codeunit::EOMDB_Bound_Logger.Info(Text)
+- syntax:
+    content: 'procedure Warning(Description: Text)'
+    parameters:
+    - id: Description
+      parameterType:
+        name: Text
+        isExternal: true
+  name: Warning
+  uid: M:Codeunit::EOMDB_Bound_Logger.Warning(Text)
+- syntax:
+    content: 'procedure Error(Description: Text, CallStack: Text, Critical: Boolean)'
+    parameters:
+    - id: Description
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: CallStack
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Critical
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: Error
+  uid: M:Codeunit::EOMDB_Bound_Logger.Error(Text,Text,Boolean)
+- syntax:
+    content: 'procedure IsEmpty(): Boolean'
+    return:
+      returnType:
+        name: Boolean
+        isExternal: true
+  name: IsEmpty
+  uid: M:Codeunit::EOMDB_Bound_Logger.IsEmpty:Boolean
+- syntax:
+    content: procedure Flush()
+  name: Flush
+  uid: M:Codeunit::EOMDB_Bound_Logger.Flush
+commentId: O:Codeunit::EOMDB Bound Logger
+name: '"EOMDB Bound Logger"'
+uid: O:Codeunit::EOMDB_Bound_Logger

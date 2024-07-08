@@ -1,0 +1,30 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Telemetry"'
+alId: ID 70656792
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: SingleInstance
+  value: "True"
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure LogExceededTransactionId(ExceededTransactionId: Text)'
+    parameters:
+    - id: ExceededTransactionId
+      parameterType:
+        name: Text
+        isExternal: true
+  name: LogExceededTransactionId
+  uid: M:Codeunit::EOMDB_Telemetry.LogExceededTransactionId(Text)
+commentId: O:Codeunit::EOMDB Telemetry
+name: '"EOMDB Telemetry"'
+uid: O:Codeunit::EOMDB_Telemetry

@@ -1,0 +1,108 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Organization Buffer"'
+alId: ID 70656787
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Organization Buffer
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: TableType
+  value: Temporary
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Organization Lookup
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Organization_Lookup
+    name: '"EOMDB Organization Lookup"'
+    isExternal: false
+- name: DrillDownPageId
+  value: EOMDB Organization Lookup
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Organization_Lookup
+    name: '"EOMDB Organization Lookup"'
+    isExternal: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  name: Id
+  uid: F:Table::EOMDB_Organization_Buffer.Id
+- type:
+    name: Text[250]
+    isExternal: true
+  name: Name
+  uid: F:Table::EOMDB_Organization_Buffer.Name[250]
+- type:
+    name: Boolean
+    isExternal: true
+  name: Enabled
+  uid: F:Table::EOMDB_Organization_Buffer.Enabled
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Organization Enabled"'
+  uid: F:Table::EOMDB_Organization_Buffer.Organization_Enabled
+- type:
+    name: Text[250]
+    isExternal: true
+  name: ILN
+  uid: F:Table::EOMDB_Organization_Buffer.ILN[250]
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Country Code"'
+  uid: F:Table::EOMDB_Organization_Buffer.Country_Code[10]
+- type:
+    name: Text[20]
+    isExternal: true
+  name: '"Tax Id"'
+  uid: F:Table::EOMDB_Organization_Buffer.Tax_Id[20]
+- type:
+    name: Text[20]
+    isExternal: true
+  name: '"Registration Number"'
+  uid: F:Table::EOMDB_Organization_Buffer.Registration_Number[20]
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Organization_Buffer.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Organization_Buffer.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Organization_Buffer.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Organization_Buffer.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Organization_Buffer.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Organization_Buffer.SystemRowVersion
+commentId: O:Table::EOMDB Organization Buffer
+name: '"EOMDB Organization Buffer"'
+uid: O:Table::EOMDB_Organization_Buffer

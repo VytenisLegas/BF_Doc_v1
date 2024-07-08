@@ -1,0 +1,70 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Account"'
+alId: ID 70656781
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+methods:
+- syntax:
+    content: 'procedure EOMDB_GetStatementBalBankAccount(BankDataProviderCode: Code[20], _IBAN: Code[34], BankProviderAccountId: Text[250], CurrencyCode: Code[10])'
+    parameters:
+    - id: BankDataProviderCode
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: _IBAN
+      parameterType:
+        name: Code[34]
+        isExternal: true
+    - id: BankProviderAccountId
+      parameterType:
+        name: Text[250]
+        isExternal: true
+    - id: CurrencyCode
+      parameterType:
+        name: Code[10]
+        isExternal: true
+  name: EOMDB_GetStatementBalBankAccount
+  uid: M:TableExtension::EOMDB_Bank_Account.EOMDB_GetStatementBalBankAccount(Code[20],Code[34],Text[250],Code[10])
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"EOMDB Bank Data Provider Code"'
+  uid: F:TableExtension::EOMDB_Bank_Account.EOMDB_Bank_Data_Provider_Code[20]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"EOMDB Provider Bank Account ID"'
+  uid: F:TableExtension::EOMDB_Bank_Account.EOMDB_Provider_Bank_Account_ID[250]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"EOMDB Assigned IBAN/ID"'
+  uid: F:TableExtension::EOMDB_Bank_Account.EOMDB_Assigned_IBAN/ID[250]
+- type:
+    name: Integer
+    isExternal: true
+  name: '"EOMDB Assigned Connection Id"'
+  uid: F:TableExtension::EOMDB_Bank_Account.EOMDB_Assigned_Connection_Id
+- type:
+    name: Code[34]
+    isExternal: true
+  name: '"EOMDB Bank Account ID"'
+  obsoletion:
+    state: pending
+    reason: Replaced by field EOMDB Provider Bank Account ID.
+    version: "22.0"
+  uid: F:TableExtension::EOMDB_Bank_Account.EOMDB_Bank_Account_ID[34]
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"EOMDB Skip Doc. Recognition"'
+  uid: F:TableExtension::EOMDB_Bank_Account.EOMDB_Skip_Doc#_Recognition
+commentId: O:TableExtension::EOMDB Bank Account
+name: '"EOMDB Bank Account"'
+uid: O:TableExtension::EOMDB_Bank_Account

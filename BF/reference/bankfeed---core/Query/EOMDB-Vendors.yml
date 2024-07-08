@@ -1,0 +1,51 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Vendors"'
+alId: ID 70656788
+baseKind: Query
+kind: Query
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Vendors
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+- name: ReadState
+  value: ReadUncommitted
+  promoted: false
+queryColumns:
+- dataItem: Vendor
+  columnType:
+    name: None
+    isExternal: true
+  name: number
+  uid: C:Query::EOMDB_Vendors.Vendor.number
+- dataItem: Vendor
+  columnType:
+    name: None
+    isExternal: true
+  name: name
+  uid: C:Query::EOMDB_Vendors.Vendor.name
+- dataItem: Vendor
+  columnType:
+    name: None
+    isExternal: true
+  name: searchName
+  uid: C:Query::EOMDB_Vendors.Vendor.searchName
+- dataItem: Vendor
+  columnType:
+    name: None
+    isExternal: true
+  name: applicationMethod
+  uid: C:Query::EOMDB_Vendors.Vendor.applicationMethod
+commentId: O:Query::EOMDB Vendors
+name: '"EOMDB Vendors"'
+uid: O:Query::EOMDB_Vendors

@@ -1,0 +1,24 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Payment Export Factory"'
+alId: ID 70656808
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+methods:
+- syntax:
+    content: 'procedure CreateExporter(var EOMDBPaymentExporter: Interface "EOMDB Payment Exporter")'
+    parameters:
+    - id: EOMDBPaymentExporter
+      parameterType:
+        internalReference: O:Interface::EOMDB_Payment_Exporter
+        name: '"EOMDB Payment Exporter"'
+        isExternal: false
+  name: CreateExporter
+  uid: M:Codeunit::EOMDB_Payment_Export_Factory.CreateExporter(Interface::EOMDB_Payment_Exporter@)
+commentId: O:Codeunit::EOMDB Payment Export Factory
+name: '"EOMDB Payment Export Factory"'
+uid: O:Codeunit::EOMDB_Payment_Export_Factory

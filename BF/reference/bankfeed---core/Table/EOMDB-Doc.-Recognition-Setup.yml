@@ -1,0 +1,133 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Doc. Recognition Setup"'
+alId: ID 70656780
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Document Recognition Setup (Bankfeed)
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Doc. Recognition Setup
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Doc#_Recognition_Setup
+    name: '"EOMDB Doc. Recognition Setup"'
+    isExternal: false
+- name: DrillDownPageId
+  value: EOMDB Doc. Recognition Setup
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Doc#_Recognition_Setup
+    name: '"EOMDB Doc. Recognition Setup"'
+    isExternal: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Line No."'
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.Line_No#
+- type:
+    name: Text[4]
+    isExternal: true
+  name: '"Transaction Domain Code"'
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.Transaction_Domain_Code[4]
+- type:
+    name: Text[4]
+    isExternal: true
+  name: '"Transaction Subfamily Code"'
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.Transaction_Subfamily_Code[4]
+- type:
+    name: Option
+    isExternal: true
+  name: '"Credit/Debit Indicator"'
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.Credit/Debit_Indicator
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"Document Number Pattern"'
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.Document_Number_Pattern[100]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"Documment Number Format"'
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.Documment_Number_Format[100]
+- type:
+    name: __MissingTypeSymbol__
+    isExternal: true
+  name: '"Document Type"'
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.Document_Type
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Gen.Jnl. - Doc. No. Field No."'
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.Gen#Jnl#_-_Doc#_No#_Field_No#
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Validate Gen.Jnl. - Doc. No."'
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.Validate_Gen#Jnl#_-_Doc#_No#
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Cust.L.E. - Doc. No. Field No."'
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.Cust#L#E#_-_Doc#_No#_Field_No#
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Vend.L.E. - Doc. No. Field No."'
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.Vend#L#E#_-_Doc#_No#_Field_No#
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Match by Amount"'
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.Match_by_Amount
+- type:
+    name: Guid
+    isExternal: true
+  name: '"Doc. Recognition Setup ID"'
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.Doc#_Recognition_Setup_ID
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Doc#_Recognition_Setup.SystemRowVersion
+commentId: O:Table::EOMDB Doc# Recognition Setup
+name: '"EOMDB Doc. Recognition Setup"'
+uid: O:Table::EOMDB_Doc#_Recognition_Setup

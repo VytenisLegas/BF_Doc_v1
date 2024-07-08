@@ -1,0 +1,68 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Statement Lines Subform"'
+alId: ID 70656811
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Statement_Line
+  name: '"EOMDB Statement Line"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Statement Lines
+  promoted: false
+- name: AboutTitle
+  value: About open statement lines
+  promoted: false
+- name: AboutText
+  value: Here you can see the lines, which are not posted yet. Recognized customers/vendors and identified documents are seen in the lines.
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "70656810"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Statement_Line
+    name: '"EOMDB Statement Line"'
+    isExternal: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: Replaced with page "EOMDB Stmt. Lines Subform"
+  promoted: false
+- name: ObsoleteTag
+  value: "23.0"
+  promoted: false
+commentId: O:Page::EOMDB Statement Lines Subform
+name: '"EOMDB Statement Lines Subform"'
+obsoletion:
+  state: pending
+  reason: Replaced with page "EOMDB Stmt. Lines Subform"
+  version: "23.0"
+uid: O:Page::EOMDB_Statement_Lines_Subform

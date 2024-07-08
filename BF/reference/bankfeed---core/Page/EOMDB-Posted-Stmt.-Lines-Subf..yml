@@ -1,0 +1,55 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Posted Stmt. Lines Subf."'
+alId: ID 70656866
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Posted_Stmt#_Line
+  name: '"EOMDB Posted Stmt. Line"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Posted Statement Lines
+  promoted: false
+- name: AboutTitle
+  value: About posted statement lines
+  promoted: false
+- name: AboutText
+  value: Here you can see the lines, which are already posted. Recognized customers/vendors and identified documents are seen in the lines.
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "70656862"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Posted_Stmt#_Line
+    name: '"EOMDB Posted Stmt. Line"'
+    isExternal: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+commentId: O:Page::EOMDB Posted Stmt# Lines Subf#
+name: '"EOMDB Posted Stmt. Lines Subf."'
+uid: O:Page::EOMDB_Posted_Stmt#_Lines_Subf#

@@ -1,0 +1,51 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Customers"'
+alId: ID 70656782
+baseKind: Query
+kind: Query
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Customers
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+- name: ReadState
+  value: ReadUncommitted
+  promoted: false
+queryColumns:
+- dataItem: Customer
+  columnType:
+    name: None
+    isExternal: true
+  name: number
+  uid: C:Query::EOMDB_Customers.Customer.number
+- dataItem: Customer
+  columnType:
+    name: None
+    isExternal: true
+  name: name
+  uid: C:Query::EOMDB_Customers.Customer.name
+- dataItem: Customer
+  columnType:
+    name: None
+    isExternal: true
+  name: searchName
+  uid: C:Query::EOMDB_Customers.Customer.searchName
+- dataItem: Customer
+  columnType:
+    name: None
+    isExternal: true
+  name: applicationMethod
+  uid: C:Query::EOMDB_Customers.Customer.applicationMethod
+commentId: O:Query::EOMDB Customers
+name: '"EOMDB Customers"'
+uid: O:Query::EOMDB_Customers

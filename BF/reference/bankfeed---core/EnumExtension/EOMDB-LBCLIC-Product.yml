@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB LBCLIC Product"'
+alId: ID 70656776
+baseKind: Enum
+kind: EnumExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+enumValues:
+- name: '"EOMDB Softera.Bankfeed"'
+  uid: E:EnumExtension::EOMDB_LBCLIC_Product.EOMDB_Softera#Bankfeed
+commentId: O:EnumExtension::EOMDB LBCLIC Product
+name: '"EOMDB LBCLIC Product"'
+uid: O:EnumExtension::EOMDB_LBCLIC_Product

@@ -1,0 +1,52 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Institutions Part"'
+alId: ID 70656793
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Institution_Buffer_2
+  name: '"EOMDB Institution Buffer 2"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Bankfeed Banks
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "70656790"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Institution_Buffer_2
+    name: '"EOMDB Institution Buffer 2"'
+    isExternal: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+commentId: O:Page::EOMDB Institutions Part
+name: '"EOMDB Institutions Part"'
+uid: O:Page::EOMDB_Institutions_Part

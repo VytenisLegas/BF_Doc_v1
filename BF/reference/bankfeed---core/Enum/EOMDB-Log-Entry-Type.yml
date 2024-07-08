@@ -1,0 +1,26 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Log Entry Type"'
+alId: ID 70656776
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- name: Information
+  uid: E:Enum::EOMDB_Log_Entry_Type.Information
+- name: Warning
+  uid: E:Enum::EOMDB_Log_Entry_Type.Warning
+- name: Error
+  uid: E:Enum::EOMDB_Log_Entry_Type.Error
+- name: Critical
+  uid: E:Enum::EOMDB_Log_Entry_Type.Critical
+commentId: O:Enum::EOMDB Log Entry Type
+name: '"EOMDB Log Entry Type"'
+uid: O:Enum::EOMDB_Log_Entry_Type

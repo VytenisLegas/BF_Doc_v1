@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Parse Fin. Statements"'
+alId: ID 70656777
+baseKind: Report
+kind: Report
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: Caption
+  value: Parse Statement Batches (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: Caption
+  value: Parse Statement Batches (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+commentId: O:Report::EOMDB Parse Fin# Statements
+name: '"EOMDB Parse Fin. Statements"'
+uid: O:Report::EOMDB_Parse_Fin#_Statements

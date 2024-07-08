@@ -1,0 +1,159 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Statement"'
+alId: ID 70656779
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Statement Batch (Bankfeed)
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Bank Statements
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Bank_Statements
+    name: '"EOMDB Bank Statements"'
+    isExternal: false
+- name: DrillDownPageId
+  value: EOMDB Bank Statements
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Bank_Statements
+    name: '"EOMDB Bank Statements"'
+    isExternal: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Statement No."'
+  uid: F:Table::EOMDB_Bank_Statement.Statement_No#
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"Period Start Date-Time"'
+  uid: F:Table::EOMDB_Bank_Statement.Period_Start_Date-Time
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"Period End Date-Time"'
+  uid: F:Table::EOMDB_Bank_Statement.Period_End_Date-Time
+- type:
+    name: Code[34]
+    isExternal: true
+  name: IBAN
+  uid: F:Table::EOMDB_Bank_Statement.IBAN[34]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"Provider Bank Account ID"'
+  uid: F:Table::EOMDB_Bank_Statement.Provider_Bank_Account_ID[250]
+- type:
+    name: Code[34]
+    isExternal: true
+  name: '"Bank Account ID"'
+  obsoletion:
+    state: pending
+    reason: Replaced by field EOMDB Provider Bank Account ID.
+    version: "22.0"
+  uid: F:Table::EOMDB_Bank_Statement.Bank_Account_ID[34]
+- type:
+    name: Code[3]
+    isExternal: true
+  name: '"Statement Currency Code"'
+  uid: F:Table::EOMDB_Bank_Statement.Statement_Currency_Code[3]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Bank Account No."'
+  uid: F:Table::EOMDB_Bank_Statement.Bank_Account_No#[20]
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Currency Code"'
+  uid: F:Table::EOMDB_Bank_Statement.Currency_Code[10]
+- type:
+    name: Integer
+    isExternal: true
+  name: '"No. of Debits"'
+  uid: F:Table::EOMDB_Bank_Statement.No#_of_Debits
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Debit Amount"'
+  uid: F:Table::EOMDB_Bank_Statement.Debit_Amount
+- type:
+    name: Integer
+    isExternal: true
+  name: '"No. of Credits"'
+  uid: F:Table::EOMDB_Bank_Statement.No#_of_Credits
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Credit Amount"'
+  uid: F:Table::EOMDB_Bank_Statement.Credit_Amount
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Starting Balance"'
+  uid: F:Table::EOMDB_Bank_Statement.Starting_Balance
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Ending Balance"'
+  uid: F:Table::EOMDB_Bank_Statement.Ending_Balance
+- type:
+    name: Guid
+    isExternal: true
+  name: '"Doc. Blob ID"'
+  uid: F:Table::EOMDB_Bank_Statement.Doc#_Blob_ID
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"External Document ID"'
+  uid: F:Table::EOMDB_Bank_Statement.External_Document_ID[100]
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Has Lines"'
+  uid: F:Table::EOMDB_Bank_Statement.Has_Lines
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Bank_Statement.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Bank_Statement.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Bank_Statement.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Bank_Statement.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Bank_Statement.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Bank_Statement.SystemRowVersion
+commentId: O:Table::EOMDB Bank Statement
+name: '"EOMDB Bank Statement"'
+uid: O:Table::EOMDB_Bank_Statement

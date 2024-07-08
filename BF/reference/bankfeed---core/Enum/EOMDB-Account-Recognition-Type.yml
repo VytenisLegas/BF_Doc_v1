@@ -1,0 +1,46 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Account Recognition Type"'
+alId: ID 70656775
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+enumValues:
+- name: '" "'
+  uid: E:Enum::EOMDB_Account_Recognition_Type._
+- name: Customer
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Customer
+- name: '"Customer Bank Account"'
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Customer_Bank_Account
+- name: Vendor
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Vendor
+- name: '"Vendor Bank Account"'
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Vendor_Bank_Account
+- name: '"Bank Account"'
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Bank_Account
+- name: '"Text-to-Account Mapping"'
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Text-to-Account_Mapping
+- name: '"Customer by Recognized Document"'
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Customer_by_Recognized_Document
+- name: '"Vendor by Recognized Document"'
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Vendor_by_Recognized_Document
+- name: '"Customer by Account Name & Recognized Document"'
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Customer_by_Account_Name_&amp;_Recognized_Document
+- name: '"Vendor by Account Name & Recognized Document"'
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Vendor_by_Account_Name_&amp;_Recognized_Document
+- name: '"Customer by E2E ID"'
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Customer_by_E2E_ID
+- name: '"Integration Setup (Bank Fees)"'
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Integration_Setup_(Bank_Fees)
+- name: '"Currency Exchange"'
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Currency_Exchange
+- name: '"Customer by Credit Transfer"'
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Customer_by_Credit_Transfer
+- name: '"Vendor by Credit Transfer"'
+  uid: E:Enum::EOMDB_Account_Recognition_Type.Vendor_by_Credit_Transfer
+commentId: O:Enum::EOMDB Account Recognition Type
+name: '"EOMDB Account Recognition Type"'
+uid: O:Enum::EOMDB_Account_Recognition_Type

@@ -1,0 +1,13 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Account List"'
+alId: ID 70656784
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::EOMDB Bank Account List
+name: '"EOMDB Bank Account List"'
+uid: O:PageExtension::EOMDB_Bank_Account_List

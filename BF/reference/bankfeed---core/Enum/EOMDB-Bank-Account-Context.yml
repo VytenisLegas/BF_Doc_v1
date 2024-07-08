@@ -1,0 +1,24 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Account Context"'
+alId: ID 70656797
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- name: Review
+  uid: E:Enum::EOMDB_Bank_Account_Context.Review
+- name: Connect
+  uid: E:Enum::EOMDB_Bank_Account_Context.Connect
+- name: Disconnect
+  uid: E:Enum::EOMDB_Bank_Account_Context.Disconnect
+commentId: O:Enum::EOMDB Bank Account Context
+name: '"EOMDB Bank Account Context"'
+uid: O:Enum::EOMDB_Bank_Account_Context

@@ -1,0 +1,54 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Edit Statement Lines"'
+alId: ID 70656782
+baseKind: Report
+kind: Report
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: Caption
+  value: Edit Statement Lines (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: Deprecated. Lines should be edited in journals.
+  promoted: false
+- name: ObsoleteTag
+  value: "23.0"
+  promoted: false
+- name: Caption
+  value: Edit Statement Lines (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: Deprecated. Lines should be edited in journals.
+  promoted: false
+- name: ObsoleteTag
+  value: "23.0"
+  promoted: false
+commentId: O:Report::EOMDB Edit Statement Lines
+name: '"EOMDB Edit Statement Lines"'
+obsoletion:
+  state: pending
+  reason: Deprecated. Lines should be edited in journals.
+  version: "23.0"
+uid: O:Report::EOMDB_Edit_Statement_Lines

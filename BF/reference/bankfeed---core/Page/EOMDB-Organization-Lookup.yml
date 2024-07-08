@@ -1,0 +1,52 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Organization Lookup"'
+alId: ID 70656796
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Organization_Buffer
+  name: '"EOMDB Organization Buffer"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Bankfeed Companies
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "70656787"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Organization_Buffer
+    name: '"EOMDB Organization Buffer"'
+    isExternal: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+commentId: O:Page::EOMDB Organization Lookup
+name: '"EOMDB Organization Lookup"'
+uid: O:Page::EOMDB_Organization_Lookup

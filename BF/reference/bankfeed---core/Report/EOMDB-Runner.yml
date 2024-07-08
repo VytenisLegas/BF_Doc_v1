@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Runner"'
+alId: ID 70656783
+baseKind: Report
+kind: Report
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+- name: Caption
+  value: Runner (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: Extensible
+  value: "True"
+  promoted: true
+- name: Caption
+  value: Runner (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+commentId: O:Report::EOMDB Runner
+name: '"EOMDB Runner"'
+uid: O:Report::EOMDB_Runner

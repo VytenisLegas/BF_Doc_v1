@@ -1,0 +1,26 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Payment Status"'
+alId: ID 70656784
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- name: '" "'
+  uid: E:Enum::EOMDB_Payment_Status._
+- name: Ready
+  uid: E:Enum::EOMDB_Payment_Status.Ready
+- name: Sent
+  uid: E:Enum::EOMDB_Payment_Status.Sent
+- name: Error
+  uid: E:Enum::EOMDB_Payment_Status.Error
+commentId: O:Enum::EOMDB Payment Status
+name: '"EOMDB Payment Status"'
+uid: O:Enum::EOMDB_Payment_Status

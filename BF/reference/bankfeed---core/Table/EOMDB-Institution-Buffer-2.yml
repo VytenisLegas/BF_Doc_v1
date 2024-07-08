@@ -1,0 +1,91 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Institution Buffer 2"'
+alId: ID 70656790
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Institution Buffer
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: TableType
+  value: Temporary
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Institutions Part
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Institutions_Part
+    name: '"EOMDB Institutions Part"'
+    isExternal: false
+fields:
+- type:
+    name: Code[250]
+    isExternal: true
+  name: Id
+  uid: F:Table::EOMDB_Institution_Buffer_2.Id[250]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: Name
+  uid: F:Table::EOMDB_Institution_Buffer_2.Name[250]
+- type:
+    name: Text[30]
+    isExternal: true
+  name: '"Transaction Total Days"'
+  uid: F:Table::EOMDB_Institution_Buffer_2.Transaction_Total_Days[30]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: Logo
+  uid: F:Table::EOMDB_Institution_Buffer_2.Logo[250]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: BIC
+  uid: F:Table::EOMDB_Institution_Buffer_2.BIC[20]
+- type:
+    name: Blob
+    isExternal: true
+  name: '"Logo BLOB"'
+  uid: F:Table::EOMDB_Institution_Buffer_2.Logo_BLOB
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Institution_Buffer_2.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Institution_Buffer_2.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Institution_Buffer_2.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Institution_Buffer_2.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Institution_Buffer_2.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Institution_Buffer_2.SystemRowVersion
+commentId: O:Table::EOMDB Institution Buffer 2
+name: '"EOMDB Institution Buffer 2"'
+uid: O:Table::EOMDB_Institution_Buffer_2

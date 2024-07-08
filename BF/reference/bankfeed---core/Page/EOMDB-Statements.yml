@@ -1,0 +1,32 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Statements"'
+alId: ID 70656810
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Extensible
+  value: "False"
+  promoted: true
+- name: Caption
+  value: Statements (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: ReportsAndAnalysis
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: ListPlus
+  promoted: true
+- name: SaveValues
+  value: "True"
+  promoted: false
+commentId: O:Page::EOMDB Statements
+name: '"EOMDB Statements"'
+uid: O:Page::EOMDB_Statements

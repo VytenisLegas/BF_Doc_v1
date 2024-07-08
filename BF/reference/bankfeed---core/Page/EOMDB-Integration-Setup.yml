@@ -1,0 +1,49 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Integration Setup"'
+alId: ID 70656776
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Integration_Setup
+  name: '"EOMDB Integration Setup"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Integration Setup (Bankfeed)
+  promoted: false
+- name: AboutTitle
+  value: About Bankfeed integration
+  promoted: false
+- name: AboutText
+  value: 'You can manage the main settings of your integration on this page. More information about the fields can be found in the Bankfeed user manual. Just click **Show Help**. Next Tour: [Received/Sent Documents](?page=70656775 "Opens the Statement Batches")'
+  promoted: false
+- name: UsageCategory
+  value: Administration
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: Card
+  promoted: true
+- name: SourceTable
+  value: "70656776"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Integration_Setup
+    name: '"EOMDB Integration Setup"'
+    isExternal: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+commentId: O:Page::EOMDB Integration Setup
+name: '"EOMDB Integration Setup"'
+uid: O:Page::EOMDB_Integration_Setup

@@ -1,0 +1,59 @@
+﻿### YamlMime:BusinessCentralObsoletionList
+tag: "23.0"
+groups:
+- groupName: "23.0"
+  symbols:
+  - kind: Field
+    internalReference: F:Table::EOMDB_Integration_Setup.Always_Create_Lines
+    name: '"Always Create Lines": Boolean'
+    reason: Unused. Duplicate lines are not allowed.
+  - kind: Table
+    internalReference: O:Table::EOMDB_Posted_Statement_Line
+    name: Table 70656811 "EOMDB Posted Statement Line"
+    reason: Replaced with table "EOMDB Posted Stmt. Line"
+  - kind: Table
+    internalReference: O:Table::EOMDB_Recogn#_Document
+    name: Table 70656815 "EOMDB Recogn. Document"
+    reason: 'Split to two tables: "EOMDB Line Recognized Document" and "EOMDB Posted Line Rec.Document"'
+  - kind: Table
+    internalReference: O:Table::EOMDB_Statement_Line
+    name: Table 70656810 "EOMDB Statement Line"
+    reason: Replaced with table "EOMDB Stmt. Line"
+  - kind: Method
+    internalReference: M:Table::EOMDB_Statement_Line.FormTransactionIdFilter:Text
+    name: 'FormTransactionIdFilter(): Text'
+    reason: This procedure is needed for upgrade.
+  - kind: Method
+    internalReference: M:Table::EOMDB_Statement_Line.DeleteIncludingJournalLines(Boolean)
+    name: 'DeleteIncludingJournalLines(RunTrigger: Boolean)'
+    reason: This procedure is needed for upgrade.
+  - kind: Page
+    internalReference: O:Page::EOMDB_Posted_Statement_Lines
+    name: Page 70656806 "EOMDB Posted Statement Lines"
+    reason: Replaced with page "EOMDB Posted Stmt. Lines"
+  - kind: Page
+    internalReference: O:Page::EOMDB_Posted_Stmt#Ln#_Subform
+    name: Page 70656812 "EOMDB Posted Stmt.Ln. Subform"
+    reason: Replaced with page "EOMDB Posted Stmt. Lines Subf."
+  - kind: Page
+    internalReference: O:Page::EOMDB_Recogn#_Document_FactBox
+    name: Page 70656813 "EOMDB Recogn. Document FactBox"
+    reason: 'Split to two pages: "EOMDB Line Rec. Doc. FactBox" and "EOMDB P. Line Rec.Doc. FactBox"'
+  - kind: Page
+    internalReference: O:Page::EOMDB_Statement_Lines
+    name: Page 70656805 "EOMDB Statement Lines"
+    reason: Replaced with page "EOMDB Stmt. Lines"
+  - kind: Page
+    internalReference: O:Page::EOMDB_Statement_Lines_Subform
+    name: Page 70656811 "EOMDB Statement Lines Subform"
+    reason: Replaced with page "EOMDB Stmt. Lines Subform"
+  - kind: Report
+    internalReference: O:Report::EOMDB_Edit_Statement_Lines
+    name: Report 70656782 "EOMDB Edit Statement Lines"
+    reason: Deprecated. Lines should be edited in journals.
+  - kind: Interface
+    internalReference: O:Interface::EOMDB_Bank_Data_Provider_V1
+    name: Interface "EOMDB Bank Data Provider V1"
+    reason: This version is obsolete. Use version 2 instead.
+  uid: N:Module::Bankfeed_-_Core_obsolete_by_23.0#23.0
+uid: N:Module::Bankfeed_-_Core_obsolete_by_23.0

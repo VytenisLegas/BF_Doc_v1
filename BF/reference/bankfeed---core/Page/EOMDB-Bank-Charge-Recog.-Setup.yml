@@ -1,0 +1,40 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Charge Recog. Setup"'
+alId: ID 70656785
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Bank_Charge_Recog#_Setup
+  name: '"EOMDB Bank Charge Recog. Setup"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Bank Charge Recognition Setup (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: Lists
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "70656783"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Bank_Charge_Recog#_Setup
+    name: '"EOMDB Bank Charge Recog. Setup"'
+    isExternal: false
+- name: AutoSplitKey
+  value: "True"
+  promoted: false
+commentId: O:Page::EOMDB Bank Charge Recog# Setup
+name: '"EOMDB Bank Charge Recog. Setup"'
+uid: O:Page::EOMDB_Bank_Charge_Recog#_Setup

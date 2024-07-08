@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Journal Description from"'
+alId: ID 70656785
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+- name: Caption
+  value: Journal Description from
+  promoted: false
+enumValues:
+- name: Default
+  uid: E:Enum::EOMDB_Journal_Description_from.Default
+- name: '"Payer Information"'
+  uid: E:Enum::EOMDB_Journal_Description_from.Payer_Information
+- name: '"Message to Recipient"'
+  uid: E:Enum::EOMDB_Journal_Description_from.Message_to_Recipient
+commentId: O:Enum::EOMDB Journal Description from
+name: '"EOMDB Journal Description from"'
+uid: O:Enum::EOMDB_Journal_Description_from

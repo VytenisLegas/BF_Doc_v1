@@ -1,0 +1,26 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB SUPER"'
+alId: ID 70656775
+baseKind: PermissionSet
+kind: PermissionSet
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Permission Set](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Bankfeed (SUPER)
+  promoted: false
+- name: Assignable
+  value: "True"
+  promoted: false
+- name: IncludedPermissionSets
+  value: '"EOMDB Obsolete Objects"'
+  promoted: false
+commentId: O:PermissionSet::EOMDB SUPER
+name: '"EOMDB SUPER"'
+uid: O:PermissionSet::EOMDB_SUPER

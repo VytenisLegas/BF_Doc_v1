@@ -1,0 +1,50 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Recogn. Document FactBox"'
+alId: ID 70656813
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Recogn#_Document
+  name: '"EOMDB Recogn. Document"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Recognized Documents (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "70656815"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Recogn#_Document
+    name: '"EOMDB Recogn. Document"'
+    isExternal: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: 'Split to two pages: "EOMDB Line Rec. Doc. FactBox" and "EOMDB P. Line Rec.Doc. FactBox"'
+  promoted: false
+- name: ObsoleteTag
+  value: "23.0"
+  promoted: false
+commentId: O:Page::EOMDB Recogn# Document FactBox
+name: '"EOMDB Recogn. Document FactBox"'
+obsoletion:
+  state: pending
+  reason: 'Split to two pages: "EOMDB Line Rec. Doc. FactBox" and "EOMDB P. Line Rec.Doc. FactBox"'
+  version: "23.0"
+uid: O:Page::EOMDB_Recogn#_Document_FactBox

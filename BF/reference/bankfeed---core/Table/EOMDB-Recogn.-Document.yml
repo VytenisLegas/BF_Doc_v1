@@ -1,0 +1,148 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Recogn. Document"'
+alId: ID 70656815
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Recognized Document (Bankfeed)
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Recogn. Document FactBox
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Recogn#_Document_FactBox
+    name: '"EOMDB Recogn. Document FactBox"'
+    isExternal: false
+- name: DrillDownPageId
+  value: EOMDB Recogn. Document FactBox
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Recogn#_Document_FactBox
+    name: '"EOMDB Recogn. Document FactBox"'
+    isExternal: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: 'Split to two tables: "EOMDB Line Recognized Document" and "EOMDB Posted Line Rec.Document"'
+  promoted: false
+- name: ObsoleteTag
+  value: "23.0"
+  promoted: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Bank Account No."'
+  uid: F:Table::EOMDB_Recogn#_Document.Bank_Account_No#[20]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"Transaction ID"'
+  uid: F:Table::EOMDB_Recogn#_Document.Transaction_ID[250]
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"Recognized Document No."'
+  uid: F:Table::EOMDB_Recogn#_Document.Recognized_Document_No#[35]
+- type:
+    name: __MissingTypeSymbol__
+    isExternal: true
+  name: '"Document Type"'
+  uid: F:Table::EOMDB_Recogn#_Document.Document_Type
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Match by Amount"'
+  uid: F:Table::EOMDB_Recogn#_Document.Match_by_Amount
+- type:
+    name: Code[35]
+    isExternal: true
+  name: '"Recognized Document No. (Code)"'
+  uid: F:Table::EOMDB_Recogn#_Document.Recognized_Document_No#_(Code)[35]
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Gen.Jnl. - Doc. No. Field No."'
+  uid: F:Table::EOMDB_Recogn#_Document.Gen#Jnl#_-_Doc#_No#_Field_No#
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Validate Gen.Jnl. - Doc. No."'
+  uid: F:Table::EOMDB_Recogn#_Document.Validate_Gen#Jnl#_-_Doc#_No#
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Cust.L.E. - Doc. No. Field No."'
+  uid: F:Table::EOMDB_Recogn#_Document.Cust#L#E#_-_Doc#_No#_Field_No#
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Vend.L.E. - Doc. No. Field No."'
+  uid: F:Table::EOMDB_Recogn#_Document.Vend#L#E#_-_Doc#_No#_Field_No#
+- type:
+    name: BigInteger
+    isExternal: true
+  name: '"Stmt. Line No."'
+  uid: F:Table::EOMDB_Recogn#_Document.Stmt#_Line_No#
+- type:
+    name: BigInteger
+    isExternal: true
+  name: '"Stmt. Line No. FF"'
+  uid: F:Table::EOMDB_Recogn#_Document.Stmt#_Line_No#_FF
+- type:
+    name: BigInteger
+    isExternal: true
+  name: '"Posted Stmt. Line No."'
+  uid: F:Table::EOMDB_Recogn#_Document.Posted_Stmt#_Line_No#
+- type:
+    name: BigInteger
+    isExternal: true
+  name: '"Posted Stmt. Line No. FF"'
+  uid: F:Table::EOMDB_Recogn#_Document.Posted_Stmt#_Line_No#_FF
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Recogn#_Document.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Recogn#_Document.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Recogn#_Document.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Recogn#_Document.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Recogn#_Document.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Recogn#_Document.SystemRowVersion
+commentId: O:Table::EOMDB Recogn# Document
+name: '"EOMDB Recogn. Document"'
+obsoletion:
+  state: pending
+  reason: 'Split to two tables: "EOMDB Line Recognized Document" and "EOMDB Posted Line Rec.Document"'
+  version: "23.0"
+uid: O:Table::EOMDB_Recogn#_Document

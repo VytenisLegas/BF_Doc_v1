@@ -1,0 +1,20 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Payment Journal"'
+alId: ID 70656775
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+objectProperties:
+- name: AboutTitle
+  value: About payment journal for Bankfeed
+  promoted: false
+- name: AboutText
+  value: If you use payment journal for bank statement import, all statement lines will be imported to this journal. Each line will represent a detailed bank statement operation.
+  promoted: false
+commentId: O:PageExtension::EOMDB Payment Journal
+name: '"EOMDB Payment Journal"'
+uid: O:PageExtension::EOMDB_Payment_Journal

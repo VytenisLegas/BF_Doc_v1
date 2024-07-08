@@ -1,0 +1,224 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Payment Register"'
+alId: ID 70656803
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+- name: Caption
+  value: Payment Register (Bankfeed)
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: DataCaptionFields
+  value: 10,2000000001
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Payment Registers
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Payment_Registers
+    name: '"EOMDB Payment Registers"'
+    isExternal: false
+- name: DrillDownPageId
+  value: EOMDB Payment Registers
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Payment_Registers
+    name: '"EOMDB Payment Registers"'
+    isExternal: false
+methods:
+- syntax:
+    content: 'procedure InitNew(NewIdentifier: Code[20], NewBankAccountNo: Code[20])'
+    parameters:
+    - id: NewIdentifier
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: NewBankAccountNo
+      parameterType:
+        name: Code[20]
+        isExternal: true
+  name: InitNew
+  uid: M:Table::EOMDB_Payment_Register.InitNew(Code[20],Code[20])
+- syntax:
+    content: procedure SetInfoFromCompanyInformation()
+  name: SetInfoFromCompanyInformation
+  uid: M:Table::EOMDB_Payment_Register.SetInfoFromCompanyInformation
+- syntax:
+    content: procedure SetInfoFromBankAccNo()
+  name: SetInfoFromBankAccNo
+  uid: M:Table::EOMDB_Payment_Register.SetInfoFromBankAccNo
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  name: '"No."'
+  uid: F:Table::EOMDB_Payment_Register.No#
+- type:
+    name: Code[20]
+    isExternal: true
+  name: Identifier
+  uid: F:Table::EOMDB_Payment_Register.Identifier[20]
+- type:
+    internalReference: O:Enum::EOMDB_Payment_Status
+    name: '"EOMDB Payment Status"'
+    isExternal: false
+  name: Status
+  uid: F:Table::EOMDB_Payment_Register.Status
+- type:
+    name: Integer
+    isExternal: true
+  name: '"No. of Payments"'
+  uid: F:Table::EOMDB_Payment_Register.No#_of_Payments
+- type:
+    name: Blob
+    isExternal: true
+  name: '"Exported File"'
+  uid: F:Table::EOMDB_Payment_Register.Exported_File
+- type:
+    name: Blob
+    isExternal: true
+  name: '"Transformed File"'
+  uid: F:Table::EOMDB_Payment_Register.Transformed_File
+- type:
+    name: Code[100]
+    isExternal: true
+  name: '"Transformed Document Id"'
+  uid: F:Table::EOMDB_Payment_Register.Transformed_Document_Id[100]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"From Name"'
+  uid: F:Table::EOMDB_Payment_Register.From_Name[100]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"From Name 2"'
+  uid: F:Table::EOMDB_Payment_Register.From_Name_2[100]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"From Address"'
+  uid: F:Table::EOMDB_Payment_Register.From_Address[100]
+- type:
+    name: Text[50]
+    isExternal: true
+  name: '"From Address 2"'
+  uid: F:Table::EOMDB_Payment_Register.From_Address_2[50]
+- type:
+    name: Text[30]
+    isExternal: true
+  name: '"From City"'
+  uid: F:Table::EOMDB_Payment_Register.From_City[30]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"From Post Code"'
+  uid: F:Table::EOMDB_Payment_Register.From_Post_Code[20]
+- type:
+    name: Text[30]
+    isExternal: true
+  name: '"From County"'
+  uid: F:Table::EOMDB_Payment_Register.From_County[30]
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"From Country/Region Code"'
+  uid: F:Table::EOMDB_Payment_Register.From_Country/Region_Code[10]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"From Bank Acc. No."'
+  uid: F:Table::EOMDB_Payment_Register.From_Bank_Acc#_No#[20]
+- type:
+    name: Code[30]
+    isExternal: true
+  name: '"From Bank Account No."'
+  uid: F:Table::EOMDB_Payment_Register.From_Bank_Account_No#[30]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"From Bank Account Name"'
+  uid: F:Table::EOMDB_Payment_Register.From_Bank_Account_Name[100]
+- type:
+    name: Text[20]
+    isExternal: true
+  name: '"From Bank Branch No."'
+  uid: F:Table::EOMDB_Payment_Register.From_Bank_Branch_No#[20]
+- type:
+    name: Text[20]
+    isExternal: true
+  name: '"From Payment Routing No."'
+  uid: F:Table::EOMDB_Payment_Register.From_Payment_Routing_No#[20]
+- type:
+    name: Text[20]
+    isExternal: true
+  name: '"From Giro No."'
+  uid: F:Table::EOMDB_Payment_Register.From_Giro_No#[20]
+- type:
+    name: Code[50]
+    isExternal: true
+  name: '"From IBAN"'
+  uid: F:Table::EOMDB_Payment_Register.From_IBAN[50]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"From SWIFT Code"'
+  uid: F:Table::EOMDB_Payment_Register.From_SWIFT_Code[20]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"From Provider Bank Account ID"'
+  uid: F:Table::EOMDB_Payment_Register.From_Provider_Bank_Account_ID[250]
+- type:
+    name: Text[50]
+    isExternal: true
+  name: '"From Bank Clearing Code"'
+  uid: F:Table::EOMDB_Payment_Register.From_Bank_Clearing_Code[50]
+- type:
+    name: Text[50]
+    isExternal: true
+  name: '"From Bank Clearing Standard"'
+  uid: F:Table::EOMDB_Payment_Register.From_Bank_Clearing_Standard[50]
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Payment_Register.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Payment_Register.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Payment_Register.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Payment_Register.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Payment_Register.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Payment_Register.SystemRowVersion
+commentId: O:Table::EOMDB Payment Register
+name: '"EOMDB Payment Register"'
+uid: O:Table::EOMDB_Payment_Register

@@ -1,0 +1,51 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB BDPO Context"'
+alId: ID 70656816
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure Setup(): Record "EOMDB Integration Setup"'
+    return:
+      returnType:
+        name: Record "EOMDB Integration Setup"
+        isExternal: true
+  name: Setup
+  uid: M:Codeunit::EOMDB_BDPO_Context.Setup:EOMDB_Integration_Setup
+- syntax:
+    content: 'procedure Provider(): Record "EOMDB Bank Data Provider"'
+    return:
+      returnType:
+        name: Record "EOMDB Bank Data Provider"
+        isExternal: true
+  name: Provider
+  uid: M:Codeunit::EOMDB_BDPO_Context.Provider:EOMDB_Bank_Data_Provider
+- syntax:
+    content: 'procedure Options(): Record "EOMDB Proc. Bank Data Options" temporary'
+    return:
+      returnType:
+        name: Record "EOMDB Proc. Bank Data Options" temporary
+        isExternal: true
+  name: Options
+  uid: M:Codeunit::EOMDB_BDPO_Context.Options:EOMDB_Proc#_Bank_Data_Options
+- syntax:
+    content: 'procedure ProgressItem(): Codeunit "EOMDB Progress Item"'
+    return:
+      returnType:
+        internalReference: O:Codeunit::EOMDB_Progress_Item
+        name: '"EOMDB Progress Item"'
+        isExternal: false
+  name: ProgressItem
+  uid: M:Codeunit::EOMDB_BDPO_Context.ProgressItem:Codeunit::EOMDB_Progress_Item
+commentId: O:Codeunit::EOMDB BDPO Context
+name: '"EOMDB BDPO Context"'
+uid: O:Codeunit::EOMDB_BDPO_Context

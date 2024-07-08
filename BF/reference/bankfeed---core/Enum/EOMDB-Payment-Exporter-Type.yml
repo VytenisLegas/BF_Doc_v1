@@ -1,0 +1,30 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Payment Exporter Type"'
+alId: ID 70656793
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+- name: DefaultImplementation
+  value: "70656809"
+  promoted: false
+- name: UnknownValueImplementation
+  value: "70656809"
+  promoted: false
+enumValues:
+- name: Default
+  uid: E:Enum::EOMDB_Payment_Exporter_Type.Default
+implements:
+- internalReference: O:Interface::EOMDB_Payment_Exporter
+  name: '"EOMDB Payment Exporter"'
+  isExternal: false
+commentId: O:Enum::EOMDB Payment Exporter Type
+name: '"EOMDB Payment Exporter Type"'
+uid: O:Enum::EOMDB_Payment_Exporter_Type

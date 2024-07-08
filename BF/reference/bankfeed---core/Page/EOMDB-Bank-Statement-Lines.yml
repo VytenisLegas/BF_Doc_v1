@@ -1,0 +1,65 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Statement Lines"'
+alId: ID 70656786
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Bank_Statement_Line
+  name: '"EOMDB Bank Statement Line"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Bank Statement Lines (Bankfeed)
+  promoted: false
+- name: AboutTitle
+  value: About open bank statement lines
+  promoted: false
+- name: AboutText
+  value: Here you can see the lines, which are not posted yet. Recognized customers/vendors and identified documents are seen in the lines.
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "70656785"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Bank_Statement_Line
+    name: '"EOMDB Bank Statement Line"'
+    isExternal: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: DeleteAllowed
+  value: "True"
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: Replaced by page EOMDB Posted Statement Lines.
+  promoted: false
+- name: ObsoleteTag
+  value: "22.0"
+  promoted: false
+commentId: O:Page::EOMDB Bank Statement Lines
+name: '"EOMDB Bank Statement Lines"'
+obsoletion:
+  state: pending
+  reason: Replaced by page EOMDB Posted Statement Lines.
+  version: "22.0"
+uid: O:Page::EOMDB_Bank_Statement_Lines

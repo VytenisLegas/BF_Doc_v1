@@ -1,0 +1,62 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Organizations Part"'
+alId: ID 70656791
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Organization_Buffer
+  name: '"EOMDB Organization Buffer"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Bankfeed Companies
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: SourceTable
+  value: "70656787"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Organization_Buffer
+    name: '"EOMDB Organization Buffer"'
+    isExternal: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure LoadRecords(var TempEOMDBOrganizationBuffer: Record "EOMDB Organization Buffer" temporary)'
+    parameters:
+    - id: TempEOMDBOrganizationBuffer
+      parameterType:
+        name: Record "EOMDB Organization Buffer" temporary
+        isExternal: true
+  name: LoadRecords
+  uid: M:Page::EOMDB_Organizations_Part.LoadRecords(EOMDB_Organization_Buffer@)
+commentId: O:Page::EOMDB Organizations Part
+name: '"EOMDB Organizations Part"'
+uid: O:Page::EOMDB_Organizations_Part

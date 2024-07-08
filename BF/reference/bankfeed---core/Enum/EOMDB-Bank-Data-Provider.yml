@@ -1,0 +1,36 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Data Provider"'
+alId: ID 70656794
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "True"
+  promoted: true
+- name: DefaultImplementation
+  value: 70656811,70656811
+  promoted: false
+- name: UnknownValueImplementation
+  value: 70656811,70656811
+  promoted: false
+enumValues:
+- name: '" "'
+  uid: E:Enum::EOMDB_Bank_Data_Provider._
+implements:
+- internalReference: O:Interface::EOMDB_Bank_Data_Provider_V1
+  name: '"EOMDB Bank Data Provider V1"'
+  isExternal: false
+- internalReference: O:Interface::EOMDB_Bank_Data_Provider_V2
+  name: '"EOMDB Bank Data Provider V2"'
+  isExternal: false
+commentId: O:Enum::EOMDB Bank Data Provider
+name: '"EOMDB Bank Data Provider"'
+uid: O:Enum::EOMDB_Bank_Data_Provider

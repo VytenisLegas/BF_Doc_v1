@@ -1,0 +1,46 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Account Balances FactBox"'
+alId: ID 70656870
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Bank#_Acc#_Bal#_Buffer
+  name: '"EOMDB Bank. Acc. Bal. Buffer"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Balances
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: SourceTable
+  value: "70656870"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Bank#_Acc#_Bal#_Buffer
+    name: '"EOMDB Bank. Acc. Bal. Buffer"'
+    isExternal: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: SourceTableView
+  value: sorting("Banking Account Id", "Line No.")
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+commentId: O:Page::EOMDB Account Balances FactBox
+name: '"EOMDB Account Balances FactBox"'
+uid: O:Page::EOMDB_Account_Balances_FactBox

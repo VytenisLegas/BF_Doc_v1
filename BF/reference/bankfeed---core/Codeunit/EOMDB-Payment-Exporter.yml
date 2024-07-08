@@ -1,0 +1,21 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Payment Exporter"'
+alId: ID 70656809
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+implements:
+- internalReference: O:Interface::EOMDB_Payment_Exporter
+  name: '"EOMDB Payment Exporter"'
+  isExternal: false
+commentId: O:Codeunit::EOMDB Payment Exporter
+name: '"EOMDB Payment Exporter"'
+uid: O:Codeunit::EOMDB_Payment_Exporter

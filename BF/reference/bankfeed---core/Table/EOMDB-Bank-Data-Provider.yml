@@ -1,0 +1,114 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Data Provider"'
+alId: ID 70656805
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Bank Data Provider (Bankfeed)
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Bank Data Providers
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Bank_Data_Providers
+    name: '"EOMDB Bank Data Providers"'
+    isExternal: false
+- name: DrillDownPageId
+  value: EOMDB Bank Data Providers
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Bank_Data_Providers
+    name: '"EOMDB Bank Data Providers"'
+    isExternal: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  name: Code
+  uid: F:Table::EOMDB_Bank_Data_Provider.Code[20]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: Description
+  uid: F:Table::EOMDB_Bank_Data_Provider.Description[100]
+- type:
+    name: Boolean
+    isExternal: true
+  name: Enabled
+  uid: F:Table::EOMDB_Bank_Data_Provider.Enabled
+- type:
+    internalReference: O:Enum::EOMDB_Bank_Data_Provider
+    name: '"EOMDB Bank Data Provider"'
+    isExternal: false
+  name: Provider
+  uid: F:Table::EOMDB_Bank_Data_Provider.Provider
+- type:
+    name: '"EOMDB Bank Data Provider Auth."'
+    isExternal: true
+  name: Authentication
+  uid: F:Table::EOMDB_Bank_Data_Provider.Authentication
+- type:
+    name: Text[2048]
+    isExternal: true
+  name: '"Client ID"'
+  uid: F:Table::EOMDB_Bank_Data_Provider.Client_ID[2048]
+- type:
+    name: Text[2048]
+    isExternal: true
+  name: '"Client Secret"'
+  uid: F:Table::EOMDB_Bank_Data_Provider.Client_Secret[2048]
+- type:
+    name: Text[2048]
+    isExternal: true
+  name: '"API Key"'
+  uid: F:Table::EOMDB_Bank_Data_Provider.API_Key[2048]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"API Base URL"'
+  uid: F:Table::EOMDB_Bank_Data_Provider.API_Base_URL[250]
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Bank_Data_Provider.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Bank_Data_Provider.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Bank_Data_Provider.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Bank_Data_Provider.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Bank_Data_Provider.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Bank_Data_Provider.SystemRowVersion
+commentId: O:Table::EOMDB Bank Data Provider
+name: '"EOMDB Bank Data Provider"'
+uid: O:Table::EOMDB_Bank_Data_Provider

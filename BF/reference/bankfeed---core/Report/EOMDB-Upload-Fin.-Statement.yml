@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Upload Fin. Statement"'
+alId: ID 70656775
+baseKind: Report
+kind: Report
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: Caption
+  value: Upload Statement Batch (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: Caption
+  value: Upload Statement Batch (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+commentId: O:Report::EOMDB Upload Fin# Statement
+name: '"EOMDB Upload Fin. Statement"'
+uid: O:Report::EOMDB_Upload_Fin#_Statement

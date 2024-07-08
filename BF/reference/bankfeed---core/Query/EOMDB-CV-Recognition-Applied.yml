@@ -1,0 +1,72 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB CV Recognition Applied"'
+alId: ID 70656776
+baseKind: Query
+kind: Query
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Customer/Vendor Recognitions Applied
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+- name: ReadState
+  value: ReadUncommitted
+  promoted: false
+- name: OrderBy
+  value: descending(createdDateTime)
+  promoted: false
+queryColumns:
+- dataItem: EOMDB_Recognition_Result_Act
+  columnType:
+    name: DateTime
+    isExternal: true
+  name: createdDateTime
+  uid: C:Query::EOMDB_CV_Recognition_Applied.EOMDB_Recognition_Result_Act.createdDateTime
+- dataItem: EOMDB_Recognition_Result_Act
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: bankAccountNumber
+  uid: C:Query::EOMDB_CV_Recognition_Applied.EOMDB_Recognition_Result_Act.bankAccountNumber
+- dataItem: EOMDB_Recognition_Result_Act
+  columnType:
+    name: Code[35]
+    isExternal: true
+  name: externalDocumentNumber
+  uid: C:Query::EOMDB_CV_Recognition_Applied.EOMDB_Recognition_Result_Act.externalDocumentNumber
+- dataItem: EOMDB_Recognition_Result_Act
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: recognizedAccountNumber
+  uid: C:Query::EOMDB_CV_Recognition_Applied.EOMDB_Recognition_Result_Act.recognizedAccountNumber
+- dataItem: EOMDB_Recogn__Result_Doc__Act_
+  columnType:
+    name: __MissingTypeSymbol__
+    isExternal: true
+  name: appliedDocumentType
+  uid: C:Query::EOMDB_CV_Recognition_Applied.EOMDB_Recognition_Result_Act.EOMDB_Recogn__Result_Doc__Act_.appliedDocumentType
+- dataItem: EOMDB_Recogn__Result_Doc__Act_
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: appliedDocumentNumber
+  uid: C:Query::EOMDB_CV_Recognition_Applied.EOMDB_Recognition_Result_Act.EOMDB_Recogn__Result_Doc__Act_.appliedDocumentNumber
+- dataItem: EOMDB_Recogn__Result_Doc__Act_
+  columnType:
+    name: Code[35]
+    isExternal: true
+  name: appliedExtDocumentNumber
+  uid: C:Query::EOMDB_CV_Recognition_Applied.EOMDB_Recognition_Result_Act.EOMDB_Recogn__Result_Doc__Act_.appliedExtDocumentNumber
+commentId: O:Query::EOMDB CV Recognition Applied
+name: '"EOMDB CV Recognition Applied"'
+uid: O:Query::EOMDB_CV_Recognition_Applied

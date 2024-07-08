@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Payment Register Export"'
+alId: ID 70656775
+baseKind: XmlPort
+kind: XmlPort
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[XmlPort](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object)'
+objectProperties:
+- name: Caption
+  value: Payment Register Export (Bankfeed)
+  promoted: false
+- name: Direction
+  value: Export
+  promoted: false
+- name: Encoding
+  value: UTF8
+  promoted: false
+- name: FormatEvaluate
+  value: Xml
+  promoted: false
+- name: Caption
+  value: Payment Register Export (Bankfeed)
+  promoted: false
+- name: Direction
+  value: Export
+  promoted: false
+- name: Encoding
+  value: UTF8
+  promoted: false
+- name: FormatEvaluate
+  value: Xml
+  promoted: false
+commentId: O:XmlPort::EOMDB Payment Register Export
+name: '"EOMDB Payment Register Export"'
+uid: O:XmlPort::EOMDB_Payment_Register_Export

@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Data Providers"'
+alId: ID 70656799
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Bank_Data_Provider
+  name: '"EOMDB Bank Data Provider"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Bank Data Providers (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: Administration
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "70656805"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Bank_Data_Provider
+    name: '"EOMDB Bank Data Provider"'
+    isExternal: false
+commentId: O:Page::EOMDB Bank Data Providers
+name: '"EOMDB Bank Data Providers"'
+uid: O:Page::EOMDB_Bank_Data_Providers

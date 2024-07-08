@@ -1,0 +1,240 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Customer Recognitions"'
+alId: ID 70656781
+baseKind: Query
+kind: Query
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Customer Recognitions
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+- name: ReadState
+  value: ReadUncommitted
+  promoted: false
+- name: OrderBy
+  value: descending(Cust_Entry_No_)
+  promoted: false
+queryColumns:
+- dataItem: EOMDB_Bank_Statement_Entry
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: Statement_Bank_Account_No_
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Statement_Bank_Account_No_
+- dataItem: EOMDB_Bank_Statement_Entry
+  columnType:
+    name: Code[35]
+    isExternal: true
+  name: Statement_External_Document_No_
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Statement_External_Document_No_
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Entry_No_
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Entry_No_
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Customer_No_
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Customer_No_
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Customer_Name
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Customer_Name
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Posting_Date
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Posting_Date
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Document_Type
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Document_Type
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Document_No_
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Document_No_
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Description
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Description
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Currency_Code
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Currency_Code
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Amount
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Amount
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Remaining_Amount
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Remaining_Amount
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Open
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Open
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Due_Date
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Due_Date
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Document_Date
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Document_Date
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Payment_Method_Code
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Payment_Method_Code
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Payment_Reference
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Payment_Reference
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Cust_Recipient_Bank_Account
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Cust_Recipient_Bank_Account
+- dataItem: Detailed_Cust__Ledg__Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Application_Amount
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Application_Amount
+- dataItem: Detailed_Cust__Ledg__Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Application_Posting_Date
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Application_Posting_Date
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Entry_No_
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Entry_No_
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Posting_Date
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Posting_Date
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Document_Type
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Document_Type
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Document_No_
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Document_No_
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Description
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Description
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Currency_Code
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Currency_Code
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Sales__LCY_
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Sales__LCY_
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Amount
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Amount
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Remaining_Amount
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Remaining_Amount
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Open
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Open
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Due_Date
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Due_Date
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Document_Date
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Document_Date
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Payment_Method_Code
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Payment_Method_Code
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Payment_Reference
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Payment_Reference
+- dataItem: Cust__Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Cust_Recipient_Bank_Account
+  uid: C:Query::EOMDB_Customer_Recognitions.EOMDB_Bank_Statement_Entry.Cust__Ledger_Entry.Detailed_Cust__Ledg__Entry.Detailed_Cust__Ledg__Entry2.Cust__Ledger_Entry2.Applied_Cust_Recipient_Bank_Account
+commentId: O:Query::EOMDB Customer Recognitions
+name: '"EOMDB Customer Recognitions"'
+uid: O:Query::EOMDB_Customer_Recognitions

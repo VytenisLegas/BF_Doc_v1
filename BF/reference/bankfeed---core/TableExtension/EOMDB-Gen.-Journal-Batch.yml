@@ -1,0 +1,19 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Gen. Journal Batch"'
+alId: ID 70656777
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"EOMDB Docu-Bank"'
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Batch.EOMDB_Docu-Bank
+commentId: O:TableExtension::EOMDB Gen# Journal Batch
+name: '"EOMDB Gen. Journal Batch"'
+uid: O:TableExtension::EOMDB_Gen#_Journal_Batch

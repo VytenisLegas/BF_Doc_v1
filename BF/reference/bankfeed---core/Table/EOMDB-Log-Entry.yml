@@ -1,0 +1,106 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Log Entry"'
+alId: ID 70656782
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Log Entry (Bankfeed)
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Log Entries
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Log_Entries
+    name: '"EOMDB Log Entries"'
+    isExternal: false
+- name: DrillDownPageId
+  value: EOMDB Log Entries
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Log_Entries
+    name: '"EOMDB Log Entries"'
+    isExternal: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Entry No."'
+  uid: F:Table::EOMDB_Log_Entry.Entry_No#
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"Date-Time"'
+  uid: F:Table::EOMDB_Log_Entry.Date-Time
+- type:
+    internalReference: O:Enum::EOMDB_Log_Entry_Type
+    name: '"EOMDB Log Entry Type"'
+    isExternal: false
+  name: '"Entry Type"'
+  uid: F:Table::EOMDB_Log_Entry.Entry_Type
+- type:
+    name: Text[2000]
+    isExternal: true
+  name: Description
+  uid: F:Table::EOMDB_Log_Entry.Description[2000]
+- type:
+    name: Text[2000]
+    isExternal: true
+  name: '"Description 2"'
+  uid: F:Table::EOMDB_Log_Entry.Description_2[2000]
+- type:
+    name: Blob
+    isExternal: true
+  name: '"Full Description Blob"'
+  uid: F:Table::EOMDB_Log_Entry.Full_Description_Blob
+- type:
+    name: Blob
+    isExternal: true
+  name: '"Call Stack Blob"'
+  uid: F:Table::EOMDB_Log_Entry.Call_Stack_Blob
+- type:
+    name: Code[50]
+    isExternal: true
+  name: '"User ID"'
+  uid: F:Table::EOMDB_Log_Entry.User_ID[50]
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Log_Entry.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Log_Entry.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Log_Entry.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Log_Entry.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Log_Entry.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Log_Entry.SystemRowVersion
+commentId: O:Table::EOMDB Log Entry
+name: '"EOMDB Log Entry"'
+uid: O:Table::EOMDB_Log_Entry

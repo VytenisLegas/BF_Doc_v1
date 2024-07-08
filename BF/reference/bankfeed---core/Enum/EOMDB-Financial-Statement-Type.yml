@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Financial Statement Type"'
+alId: ID 70656781
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- name: '" "'
+  uid: E:Enum::EOMDB_Financial_Statement_Type._
+- name: '"SEPA Camt"'
+  uid: E:Enum::EOMDB_Financial_Statement_Type.SEPA_Camt
+commentId: O:Enum::EOMDB Financial Statement Type
+name: '"EOMDB Financial Statement Type"'
+uid: O:Enum::EOMDB_Financial_Statement_Type

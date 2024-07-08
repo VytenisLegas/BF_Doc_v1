@@ -1,0 +1,459 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Stmt. Line"'
+alId: ID 70656816
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Statement Line (Bankfeed)
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Stmt. Lines
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Stmt#_Lines
+    name: '"EOMDB Stmt. Lines"'
+    isExternal: false
+- name: DrillDownPageId
+  value: EOMDB Stmt. Lines
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Stmt#_Lines
+    name: '"EOMDB Stmt. Lines"'
+    isExternal: false
+- name: Permissions
+  value: >-
+    tabledata "Cust. Ledger Entry" = rm,
+            tabledata "Vendor Ledger Entry" = rm
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure FilterByDocumentBlob(DocumentBlobId: Guid, BankAccountNo: Code[20], CurrencyCode: Code[20])'
+    parameters:
+    - id: DocumentBlobId
+      parameterType:
+        name: Guid
+        isExternal: true
+    - id: BankAccountNo
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: CurrencyCode
+      parameterType:
+        name: Code[20]
+        isExternal: true
+  name: FilterByDocumentBlob
+  uid: M:Table::EOMDB_Stmt#_Line.FilterByDocumentBlob(Guid,Code[20],Code[20])
+- syntax:
+    content: 'procedure GetOrInitTransaction(EOMDBBDPOContext: Codeunit "EOMDB BDPO Context", EOMDBDocumentBlob: Record "EOMDB Document Blob", BankAccount: __MissingTypeSymbol__, TransactionIdText: Text, PendingOperation: Boolean): Boolean'
+    parameters:
+    - id: EOMDBBDPOContext
+      parameterType:
+        internalReference: O:Codeunit::EOMDB_BDPO_Context
+        name: '"EOMDB BDPO Context"'
+        isExternal: false
+    - id: EOMDBDocumentBlob
+      parameterType:
+        name: Record "EOMDB Document Blob"
+        isExternal: true
+    - id: BankAccount
+      parameterType:
+        name: __MissingTypeSymbol__
+        isExternal: true
+    - id: TransactionIdText
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: PendingOperation
+      parameterType:
+        name: Boolean
+        isExternal: true
+    return:
+      returnType:
+        name: Boolean
+        isExternal: true
+  name: GetOrInitTransaction
+  uid: M:Table::EOMDB_Stmt#_Line.GetOrInitTransaction(Codeunit::EOMDB_BDPO_Context,EOMDB_Document_Blob,__MissingSymbol__,Text,Boolean):Boolean
+- syntax:
+    content: 'procedure SetTransactionText(TransactionText: Text)'
+    parameters:
+    - id: TransactionText
+      parameterType:
+        name: Text
+        isExternal: true
+  name: SetTransactionText
+  uid: M:Table::EOMDB_Stmt#_Line.SetTransactionText(Text)
+- syntax:
+    content: 'procedure SaveReceivedTransaction(RecordExists: Boolean)'
+    parameters:
+    - id: RecordExists
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: SaveReceivedTransaction
+  uid: M:Table::EOMDB_Stmt#_Line.SaveReceivedTransaction(Boolean)
+- syntax:
+    content: 'procedure RefreshRecognitionOnFilteredRecords(ShowDialog: Boolean)'
+    parameters:
+    - id: ShowDialog
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: RefreshRecognitionOnFilteredRecords
+  uid: M:Table::EOMDB_Stmt#_Line.RefreshRecognitionOnFilteredRecords(Boolean)
+- syntax:
+    content: 'procedure MoveToPostedTransactionsWithoutPosting(NeedConfirm: Boolean)'
+    parameters:
+    - id: NeedConfirm
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: MoveToPostedTransactionsWithoutPosting
+  uid: M:Table::EOMDB_Stmt#_Line.MoveToPostedTransactionsWithoutPosting(Boolean)
+- syntax:
+    content: 'procedure GetByTransactionHash(BankAccountNo: Code[20], TransactionHash: Code[64]): Boolean'
+    parameters:
+    - id: BankAccountNo
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: TransactionHash
+      parameterType:
+        name: Code[64]
+        isExternal: true
+    return:
+      returnType:
+        name: Boolean
+        isExternal: true
+  name: GetByTransactionHash
+  uid: M:Table::EOMDB_Stmt#_Line.GetByTransactionHash(Code[20],Code[64]):Boolean
+- syntax:
+    content: 'procedure GetByTransactionId(BankAccountNo: Code[20], TransactionId: Text[250]): Boolean'
+    parameters:
+    - id: BankAccountNo
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: TransactionId
+      parameterType:
+        name: Text[250]
+        isExternal: true
+    return:
+      returnType:
+        name: Boolean
+        isExternal: true
+  name: GetByTransactionId
+  uid: M:Table::EOMDB_Stmt#_Line.GetByTransactionId(Code[20],Text[250]):Boolean
+fields:
+- type:
+    name: BigInteger
+    isExternal: true
+  name: '"Line No."'
+  uid: F:Table::EOMDB_Stmt#_Line.Line_No#
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Bank Account No."'
+  uid: F:Table::EOMDB_Stmt#_Line.Bank_Account_No#[20]
+- type:
+    name: Code[50]
+    isExternal: true
+  name: '"Bank Account IBAN"'
+  uid: F:Table::EOMDB_Stmt#_Line.Bank_Account_IBAN[50]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"Bank Account ID"'
+  uid: F:Table::EOMDB_Stmt#_Line.Bank_Account_ID[250]
+- type:
+    internalReference: O:Enum::EOMDB_Recognition_Status
+    name: '"EOMDB Recognition Status"'
+    isExternal: false
+  name: '"Recognition Status"'
+  uid: F:Table::EOMDB_Stmt#_Line.Recognition_Status
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"Recognition Date-Time"'
+  uid: F:Table::EOMDB_Stmt#_Line.Recognition_Date-Time
+- type:
+    name: Date
+    isExternal: true
+  name: '"Operation Date"'
+  uid: F:Table::EOMDB_Stmt#_Line.Operation_Date
+- type:
+    name: Date
+    isExternal: true
+  name: '"Value Date"'
+  uid: F:Table::EOMDB_Stmt#_Line.Value_Date
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Document No."'
+  uid: F:Table::EOMDB_Stmt#_Line.Document_No#[20]
+- type:
+    name: Code[35]
+    isExternal: true
+  name: '"External Document No."'
+  uid: F:Table::EOMDB_Stmt#_Line.External_Document_No#[35]
+- type:
+    name: Code[35]
+    isExternal: true
+  name: '"Recognized Document No. Filter"'
+  uid: F:Table::EOMDB_Stmt#_Line.Recognized_Document_No#_Filter[35]
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Recognized Document Exist"'
+  uid: F:Table::EOMDB_Stmt#_Line.Recognized_Document_Exist
+- type:
+    internalReference: O:Enum::EOMDB_SEPA_Camt_E#_Acc#_Type
+    name: '"EOMDB SEPA Camt E. Acc. Type"'
+    isExternal: false
+  name: '"Entry Account Type"'
+  uid: F:Table::EOMDB_Stmt#_Line.Entry_Account_Type
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Currency Code"'
+  uid: F:Table::EOMDB_Stmt#_Line.Currency_Code[10]
+- type:
+    internalReference: O:Enum::EOMDB_Account_Recognition_Type
+    name: '"EOMDB Account Recognition Type"'
+    isExternal: false
+  name: '"Account Recognition Type"'
+  uid: F:Table::EOMDB_Stmt#_Line.Account_Recognition_Type
+- type:
+    name: __MissingTypeSymbol__
+    isExternal: true
+  name: '"Recognized Account Type"'
+  uid: F:Table::EOMDB_Stmt#_Line.Recognized_Account_Type
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Recognized Account No."'
+  uid: F:Table::EOMDB_Stmt#_Line.Recognized_Account_No#[20]
+- type:
+    name: __MissingTypeSymbol__
+    isExternal: true
+  name: '"Bank Fees Account Type"'
+  uid: F:Table::EOMDB_Stmt#_Line.Bank_Fees_Account_Type
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Bank Fees Account No."'
+  uid: F:Table::EOMDB_Stmt#_Line.Bank_Fees_Account_No#[20]
+- type:
+    name: Decimal
+    isExternal: true
+  name: Amount
+  uid: F:Table::EOMDB_Stmt#_Line.Amount
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Bank Charge"'
+  uid: F:Table::EOMDB_Stmt#_Line.Bank_Charge
+- type:
+    name: Code[3]
+    isExternal: true
+  name: '"Account Currency"'
+  uid: F:Table::EOMDB_Stmt#_Line.Account_Currency[3]
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Statement Amount"'
+  uid: F:Table::EOMDB_Stmt#_Line.Statement_Amount
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Signed Statement Amount"'
+  uid: F:Table::EOMDB_Stmt#_Line.Signed_Statement_Amount
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Statement Charges Amount"'
+  uid: F:Table::EOMDB_Stmt#_Line.Statement_Charges_Amount
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Transaction Amount"'
+  uid: F:Table::EOMDB_Stmt#_Line.Transaction_Amount
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Transaction Amount (Original)"'
+  uid: F:Table::EOMDB_Stmt#_Line.Transaction_Amount_(Original)
+- type:
+    name: Code[3]
+    isExternal: true
+  name: '"Transaction Currency"'
+  uid: F:Table::EOMDB_Stmt#_Line.Transaction_Currency[3]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: Description
+  uid: F:Table::EOMDB_Stmt#_Line.Description[100]
+- type:
+    name: Text[140]
+    isExternal: true
+  name: '"Message to Recipient"'
+  uid: F:Table::EOMDB_Stmt#_Line.Message_to_Recipient[140]
+- type:
+    name: Text[50]
+    isExternal: true
+  name: '"Payer Information"'
+  uid: F:Table::EOMDB_Stmt#_Line.Payer_Information[50]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"Transaction Information"'
+  uid: F:Table::EOMDB_Stmt#_Line.Transaction_Information[100]
+- type:
+    name: '"EOMDB Transaction Type"'
+    isExternal: true
+  name: '"Transaction Type"'
+  uid: F:Table::EOMDB_Stmt#_Line.Transaction_Type
+- type:
+    name: Blob
+    isExternal: true
+  name: '"Transaction Text Blob"'
+  uid: F:Table::EOMDB_Stmt#_Line.Transaction_Text_Blob
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"Transaction Text"'
+  uid: F:Table::EOMDB_Stmt#_Line.Transaction_Text[250]
+- type:
+    name: Text[500]
+    isExternal: true
+  name: '"Additional Transaction Info"'
+  uid: F:Table::EOMDB_Stmt#_Line.Additional_Transaction_Info[500]
+- type:
+    name: Text[4]
+    isExternal: true
+  name: '"SEPA Transaction Domain Code"'
+  uid: F:Table::EOMDB_Stmt#_Line.SEPA_Transaction_Domain_Code[4]
+- type:
+    name: Text[4]
+    isExternal: true
+  name: '"SEPA Tx. Domain Family Code"'
+  uid: F:Table::EOMDB_Stmt#_Line.SEPA_Tx#_Domain_Family_Code[4]
+- type:
+    name: Text[4]
+    isExternal: true
+  name: '"SEPA Tx. Domain Subfamily Code"'
+  uid: F:Table::EOMDB_Stmt#_Line.SEPA_Tx#_Domain_Subfamily_Code[4]
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"SEPA Tx. Domain Propr. Code"'
+  uid: F:Table::EOMDB_Stmt#_Line.SEPA_Tx#_Domain_Propr#_Code[35]
+- type:
+    name: Code[34]
+    isExternal: true
+  name: '"Debtor IBAN"'
+  uid: F:Table::EOMDB_Stmt#_Line.Debtor_IBAN[34]
+- type:
+    name: Text[140]
+    isExternal: true
+  name: '"Debtor Name"'
+  uid: F:Table::EOMDB_Stmt#_Line.Debtor_Name[140]
+- type:
+    name: Text[34]
+    isExternal: true
+  name: '"Debtor Bank Account No."'
+  uid: F:Table::EOMDB_Stmt#_Line.Debtor_Bank_Account_No#[34]
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"Debtor Registration No."'
+  uid: F:Table::EOMDB_Stmt#_Line.Debtor_Registration_No#[35]
+- type:
+    name: Code[34]
+    isExternal: true
+  name: '"Creditor IBAN"'
+  uid: F:Table::EOMDB_Stmt#_Line.Creditor_IBAN[34]
+- type:
+    name: Text[140]
+    isExternal: true
+  name: '"Creditor Name"'
+  uid: F:Table::EOMDB_Stmt#_Line.Creditor_Name[140]
+- type:
+    name: Text[34]
+    isExternal: true
+  name: '"Creditor Bank Account No."'
+  uid: F:Table::EOMDB_Stmt#_Line.Creditor_Bank_Account_No#[34]
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"Creditor Registration No."'
+  uid: F:Table::EOMDB_Stmt#_Line.Creditor_Registration_No#[35]
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"Creditor Reference"'
+  uid: F:Table::EOMDB_Stmt#_Line.Creditor_Reference[35]
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"End to End ID"'
+  uid: F:Table::EOMDB_Stmt#_Line.End_to_End_ID[35]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"Transaction ID"'
+  uid: F:Table::EOMDB_Stmt#_Line.Transaction_ID[250]
+- type:
+    name: Code[64]
+    isExternal: true
+  name: '"Transaction Hash (SHA-256)"'
+  uid: F:Table::EOMDB_Stmt#_Line.Transaction_Hash_(SHA-256)[64]
+- type:
+    name: Guid
+    isExternal: true
+  name: '"Doc. Blob ID"'
+  uid: F:Table::EOMDB_Stmt#_Line.Doc#_Blob_ID
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Stmt#_Line.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Stmt#_Line.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Stmt#_Line.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Stmt#_Line.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Stmt#_Line.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Stmt#_Line.SystemRowVersion
+commentId: O:Table::EOMDB Stmt# Line
+name: '"EOMDB Stmt. Line"'
+uid: O:Table::EOMDB_Stmt#_Line

@@ -1,0 +1,59 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Statement Entries"'
+alId: ID 70656787
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Bank_Statement_Entry
+  name: '"EOMDB Bank Statement Entry"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Bank Statement Entries (Bankfeed)
+  promoted: false
+- name: AboutTitle
+  value: About posted bank statement entries
+  promoted: false
+- name: AboutText
+  value: Here you can see the entries, which are already posted. Recognized customers/vendors and identified documents are seen in the entries.
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "70656786"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Bank_Statement_Entry
+    name: '"EOMDB Bank Statement Entry"'
+    isExternal: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: Replaced by page EOMDB Posted Transactions.
+  promoted: false
+- name: ObsoleteTag
+  value: "22.0"
+  promoted: false
+commentId: O:Page::EOMDB Bank Statement Entries
+name: '"EOMDB Bank Statement Entries"'
+obsoletion:
+  state: pending
+  reason: Replaced by page EOMDB Posted Transactions.
+  version: "22.0"
+uid: O:Page::EOMDB_Bank_Statement_Entries

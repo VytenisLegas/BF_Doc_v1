@@ -1,0 +1,80 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Docura Connect Auth."'
+alId: ID 70656789
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Extensible
+  value: "False"
+  promoted: true
+- name: Caption
+  value: Waiting for a response - do not close this page
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: LinksAllowed
+  value: "False"
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure SetAuthProperties(AuthRequestUrl: Text)'
+    parameters:
+    - id: AuthRequestUrl
+      parameterType:
+        name: Text
+        isExternal: true
+  name: SetAuthProperties
+  uid: M:Page::EOMDB_Docura_Connect_Auth#.SetAuthProperties(Text)
+- syntax:
+    content: 'procedure GetRef(): Text'
+    return:
+      returnType:
+        name: Text
+        isExternal: true
+  name: GetRef
+  uid: M:Page::EOMDB_Docura_Connect_Auth#.GetRef:Text
+- syntax:
+    content: 'procedure GetAuthError(): Text'
+    return:
+      returnType:
+        name: Text
+        isExternal: true
+  name: GetAuthError
+  uid: M:Page::EOMDB_Docura_Connect_Auth#.GetAuthError:Text
+- syntax:
+    content: 'procedure GetOAuthProperties(AuthorizationCode: Text, var CodeOut: Text)'
+    parameters:
+    - id: AuthorizationCode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: CodeOut
+      parameterType:
+        name: Text
+        isExternal: true
+  name: GetOAuthProperties
+  uid: M:Page::EOMDB_Docura_Connect_Auth#.GetOAuthProperties(Text,Text@)
+commentId: O:Page::EOMDB Docura Connect Auth#
+name: '"EOMDB Docura Connect Auth."'
+uid: O:Page::EOMDB_Docura_Connect_Auth#

@@ -1,0 +1,25 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Credit Transfer Register"'
+alId: ID 70656780
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    internalReference: O:Enum::EOMDB_Payment_Status
+    name: '"EOMDB Payment Status"'
+    isExternal: false
+  name: '"EOMDB Payment Status"'
+  uid: F:TableExtension::EOMDB_Credit_Transfer_Register.EOMDB_Payment_Status
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"EOMDB Payment Status DateTime"'
+  uid: F:TableExtension::EOMDB_Credit_Transfer_Register.EOMDB_Payment_Status_DateTime
+commentId: O:TableExtension::EOMDB Credit Transfer Register
+name: '"EOMDB Credit Transfer Register"'
+uid: O:TableExtension::EOMDB_Credit_Transfer_Register

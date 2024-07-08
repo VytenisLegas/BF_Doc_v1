@@ -1,0 +1,78 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Country Buffer"'
+alId: ID 70656788
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Country Buffer
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: TableType
+  value: Temporary
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Countries
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Countries
+    name: '"EOMDB Countries"'
+    isExternal: false
+- name: DrillDownPageId
+  value: EOMDB Countries
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Countries
+    name: '"EOMDB Countries"'
+    isExternal: false
+fields:
+- type:
+    name: Code[10]
+    isExternal: true
+  name: Code
+  uid: F:Table::EOMDB_Country_Buffer.Code[10]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: Name
+  uid: F:Table::EOMDB_Country_Buffer.Name[100]
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Country_Buffer.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Country_Buffer.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Country_Buffer.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Country_Buffer.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Country_Buffer.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Country_Buffer.SystemRowVersion
+commentId: O:Table::EOMDB Country Buffer
+name: '"EOMDB Country Buffer"'
+uid: O:Table::EOMDB_Country_Buffer

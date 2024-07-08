@@ -1,0 +1,20 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Gen. Journal Batches"'
+alId: ID 70656778
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+objectProperties:
+- name: AboutTitle
+  value: About Bankfeed batches
+  promoted: false
+- name: AboutText
+  value: If you are using general journals for bank statement import, every bank account should have a separate journal batch, with respective information in _Bal. Account Type_ and _Bal. Account No._ fields.
+  promoted: false
+commentId: O:PageExtension::EOMDB Gen# Journal Batches
+name: '"EOMDB Gen. Journal Batches"'
+uid: O:PageExtension::EOMDB_Gen#_Journal_Batches

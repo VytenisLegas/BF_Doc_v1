@@ -1,0 +1,54 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Apply Statement Entries"'
+alId: ID 70656786
+baseKind: Report
+kind: Report
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: Caption
+  value: Apply Statement Entries (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Extensible
+  value: "False"
+  promoted: true
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: Permissions
+  value: >-
+    tabledata "Cust. Ledger Entry" = rm,
+            tabledata "Vendor Ledger Entry" = rm
+  promoted: false
+- name: Caption
+  value: Apply Statement Entries (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Extensible
+  value: "False"
+  promoted: true
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: Permissions
+  value: >-
+    tabledata "Cust. Ledger Entry" = rm,
+            tabledata "Vendor Ledger Entry" = rm
+  promoted: false
+commentId: O:Report::EOMDB Apply Statement Entries
+name: '"EOMDB Apply Statement Entries"'
+uid: O:Report::EOMDB_Apply_Statement_Entries

@@ -1,0 +1,45 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB G/L Accounts"'
+alId: ID 70656783
+baseKind: Query
+kind: Query
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: G/L Accounts
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+- name: ReadState
+  value: ReadUncommitted
+  promoted: false
+queryColumns:
+- dataItem: G_L_Account
+  columnType:
+    name: None
+    isExternal: true
+  name: number
+  uid: C:Query::EOMDB_G/L_Accounts.G_L_Account.number
+- dataItem: G_L_Account
+  columnType:
+    name: None
+    isExternal: true
+  name: name
+  uid: C:Query::EOMDB_G/L_Accounts.G_L_Account.name
+- dataItem: G_L_Account
+  columnType:
+    name: None
+    isExternal: true
+  name: searchName
+  uid: C:Query::EOMDB_G/L_Accounts.G_L_Account.searchName
+commentId: O:Query::EOMDB G/L Accounts
+name: '"EOMDB G/L Accounts"'
+uid: O:Query::EOMDB_G/L_Accounts

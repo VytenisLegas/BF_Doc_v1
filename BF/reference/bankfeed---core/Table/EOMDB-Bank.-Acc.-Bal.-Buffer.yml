@@ -1,0 +1,79 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank. Acc. Bal. Buffer"'
+alId: ID 70656870
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Banking Account Balance Buffer
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: TableType
+  value: Temporary
+  promoted: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Banking Account Id"'
+  uid: F:Table::EOMDB_Bank#_Acc#_Bal#_Buffer.Banking_Account_Id
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Line No."'
+  uid: F:Table::EOMDB_Bank#_Acc#_Bal#_Buffer.Line_No#
+- type:
+    name: Text[250]
+    isExternal: true
+  name: Type
+  uid: F:Table::EOMDB_Bank#_Acc#_Bal#_Buffer.Type[250]
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Currency Code"'
+  uid: F:Table::EOMDB_Bank#_Acc#_Bal#_Buffer.Currency_Code[10]
+- type:
+    name: Decimal
+    isExternal: true
+  name: Amount
+  uid: F:Table::EOMDB_Bank#_Acc#_Bal#_Buffer.Amount
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Bank#_Acc#_Bal#_Buffer.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Bank#_Acc#_Bal#_Buffer.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Bank#_Acc#_Bal#_Buffer.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Bank#_Acc#_Bal#_Buffer.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Bank#_Acc#_Bal#_Buffer.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Bank#_Acc#_Bal#_Buffer.SystemRowVersion
+commentId: O:Table::EOMDB Bank# Acc# Bal# Buffer
+name: '"EOMDB Bank. Acc. Bal. Buffer"'
+uid: O:Table::EOMDB_Bank#_Acc#_Bal#_Buffer

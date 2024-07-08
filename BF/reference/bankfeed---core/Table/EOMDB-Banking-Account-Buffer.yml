@@ -1,0 +1,234 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Banking Account Buffer"'
+alId: ID 70656784
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Banking Account Buffer
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: TableType
+  value: Temporary
+  promoted: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  name: Id
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Id
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Organization Id"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Organization_Id
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Bank Id"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Bank_Id
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"Bank Name"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Bank_Name[250]
+- type:
+    name: Code[50]
+    isExternal: true
+  name: IBAN
+  uid: F:Table::EOMDB_Banking_Account_Buffer.IBAN[50]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"Bank Account Id"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Bank_Account_Id[250]
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Currency Code"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Currency_Code[10]
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Multi-Currency"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Multi-Currency
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Correspondent Bank Id"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Correspondent_Bank_Id
+- type:
+    name: Code[50]
+    isExternal: true
+  name: '"Correspondent Bank IBAN"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Correspondent_Bank_IBAN[50]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: Name
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Name[250]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: Description
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Description[250]
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Data Frequency"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Data_Frequency
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"Notification E-Mail"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Notification_E-Mail[250]
+- type:
+    name: BigInteger
+    isExternal: true
+  name: '"Last Rcpt. Statement Timestamp"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Last_Rcpt#_Statement_Timestamp
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"Last Rcpt. Stmt. Timestamp Dt."'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Last_Rcpt#_Stmt#_Timestamp_Dt#
+- type:
+    name: Decimal
+    isExternal: true
+  name: Amount
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Amount
+- type:
+    name: BigInteger
+    isExternal: true
+  name: Created
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Created
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"Created Dt."'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Created_Dt#
+- type:
+    name: BigInteger
+    isExternal: true
+  name: Updated
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Updated
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"Updated Dt."'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Updated_Dt#
+- type:
+    name: Guid
+    isExternal: true
+  name: '"N - Account Id"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Account_Id
+- type:
+    name: Code[250]
+    isExternal: true
+  name: '"N - Institution Id"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Institution_Id[250]
+- type:
+    name: BigInteger
+    isExternal: true
+  name: '"N - Trans. Last Download Date"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Trans#_Last_Download_Date
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"N - Trans. Last Download Dt."'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Trans#_Last_Download_Dt#
+- type:
+    name: BigInteger
+    isExternal: true
+  name: '"N - Last Notification Date"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Last_Notification_Date
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"N - Last Notification Dt."'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Last_Notification_Dt#
+- type:
+    name: BigInteger
+    isExternal: true
+  name: '"N - Connection Date"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Connection_Date
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"N - Connection Dt."'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Connection_Dt#
+- type:
+    name: Integer
+    isExternal: true
+  name: '"N - Max. Historical Days"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Max#_Historical_Days
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"N - Last Execution State"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Last_Execution_State[250]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"N - Last Execution Message"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Last_Execution_Message[250]
+- type:
+    name: BigInteger
+    isExternal: true
+  name: '"N - Last Execution Date"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Last_Execution_Date
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"N - Last Execution Dt."'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Last_Execution_Dt#
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"N - Download Pattern"'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.N_-_Download_Pattern[250]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Assigned Bank Account No."'
+  uid: F:Table::EOMDB_Banking_Account_Buffer.Assigned_Bank_Account_No#[20]
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Banking_Account_Buffer.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Banking_Account_Buffer.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Banking_Account_Buffer.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Banking_Account_Buffer.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Banking_Account_Buffer.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Banking_Account_Buffer.SystemRowVersion
+commentId: O:Table::EOMDB Banking Account Buffer
+name: '"EOMDB Banking Account Buffer"'
+uid: O:Table::EOMDB_Banking_Account_Buffer

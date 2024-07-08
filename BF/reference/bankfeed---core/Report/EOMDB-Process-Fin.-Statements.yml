@@ -1,0 +1,44 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Process Fin. Statements"'
+alId: ID 70656779
+baseKind: Report
+kind: Report
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: Caption
+  value: Process Statement Batches (Bankfeed)
+  promoted: false
+- name: AdditionalSearchTerms
+  value: Process Statement Batches (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: Caption
+  value: Process Statement Batches (Bankfeed)
+  promoted: false
+- name: AdditionalSearchTerms
+  value: Process Statement Batches (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+commentId: O:Report::EOMDB Process Fin# Statements
+name: '"EOMDB Process Fin. Statements"'
+uid: O:Report::EOMDB_Process_Fin#_Statements

@@ -1,0 +1,13 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Customer Ledger Entries"'
+alId: ID 70656787
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::EOMDB Customer Ledger Entries
+name: '"EOMDB Customer Ledger Entries"'
+uid: O:PageExtension::EOMDB_Customer_Ledger_Entries

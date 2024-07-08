@@ -1,0 +1,29 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Payment Exporter"'
+baseKind: Interface
+kind: Interface
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al)'
+methods:
+- syntax:
+    content: 'procedure SetSource(SourceVariant: Variant)'
+    parameters:
+    - id: SourceVariant
+      description: The source, for example a general journal line.
+      parameterType:
+        name: Variant
+        isExternal: true
+  summary: The method specifies a source for the payment register generation.
+  name: SetSource
+  uid: M:Interface::EOMDB_Payment_Exporter.SetSource(Variant)
+- syntax:
+    content: procedure Export()
+  summary: The method creates the payment register record from the source defined in the implementation codeunit.
+  name: Export
+  uid: M:Interface::EOMDB_Payment_Exporter.Export
+commentId: O:Interface::EOMDB Payment Exporter
+name: '"EOMDB Payment Exporter"'
+uid: O:Interface::EOMDB_Payment_Exporter

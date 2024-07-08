@@ -1,0 +1,13 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Accountant Role Center"'
+alId: ID 70656776
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::EOMDB Accountant Role Center
+name: '"EOMDB Accountant Role Center"'
+uid: O:PageExtension::EOMDB_Accountant_Role_Center

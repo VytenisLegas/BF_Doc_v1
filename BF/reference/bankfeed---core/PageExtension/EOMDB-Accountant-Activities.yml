@@ -1,0 +1,13 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Accountant Activities"'
+alId: ID 70656777
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::EOMDB Accountant Activities
+name: '"EOMDB Accountant Activities"'
+uid: O:PageExtension::EOMDB_Accountant_Activities

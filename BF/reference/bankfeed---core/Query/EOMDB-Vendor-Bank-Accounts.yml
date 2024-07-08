@@ -1,0 +1,45 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Vendor Bank Accounts"'
+alId: ID 70656785
+baseKind: Query
+kind: Query
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Vendor Bank Accounts
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+- name: ReadState
+  value: ReadUncommitted
+  promoted: false
+queryColumns:
+- dataItem: Vendor_Bank_Account
+  columnType:
+    name: None
+    isExternal: true
+  name: vendorNumber
+  uid: C:Query::EOMDB_Vendor_Bank_Accounts.Vendor_Bank_Account.vendorNumber
+- dataItem: Vendor_Bank_Account
+  columnType:
+    name: None
+    isExternal: true
+  name: bankAccountNumber
+  uid: C:Query::EOMDB_Vendor_Bank_Accounts.Vendor_Bank_Account.bankAccountNumber
+- dataItem: Vendor_Bank_Account
+  columnType:
+    name: None
+    isExternal: true
+  name: iban
+  uid: C:Query::EOMDB_Vendor_Bank_Accounts.Vendor_Bank_Account.iban
+commentId: O:Query::EOMDB Vendor Bank Accounts
+name: '"EOMDB Vendor Bank Accounts"'
+uid: O:Query::EOMDB_Vendor_Bank_Accounts

@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Statement Mgt."'
+alId: ID 70656789
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: Removed codeunit that should be internal.
+  promoted: false
+- name: ObsoleteTag
+  value: "22.0"
+  promoted: false
+commentId: O:Codeunit::EOMDB Bank Statement Mgt#
+name: '"EOMDB Bank Statement Mgt."'
+obsoletion:
+  state: pending
+  reason: Removed codeunit that should be internal.
+  version: "22.0"
+uid: O:Codeunit::EOMDB_Bank_Statement_Mgt#

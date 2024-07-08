@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Fill Journal"'
+alId: ID 70656779
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: SingleInstance
+  value: "True"
+  promoted: false
+commentId: O:Codeunit::EOMDB Fill Journal
+name: '"EOMDB Fill Journal"'
+uid: O:Codeunit::EOMDB_Fill_Journal

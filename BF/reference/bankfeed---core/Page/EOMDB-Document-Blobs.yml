@@ -1,0 +1,55 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Document Blobs"'
+alId: ID 70656775
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Document_Blob
+  name: '"EOMDB Document Blob"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Statement Batches (Bankfeed)
+  promoted: false
+- name: AboutTitle
+  value: About received and sent documents
+  promoted: false
+- name: AboutText
+  value: Here you can see all uploaded and saved bank statements. Also you can check when the statement was uploaded, the status of the statement and how it was uploaded.
+  promoted: false
+- name: UsageCategory
+  value: Administration
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "70656775"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Document_Blob
+    name: '"EOMDB Document Blob"'
+    isExternal: false
+- name: SourceTableView
+  value: sorting("Creation Date-Time") order(descending)
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: DeleteAllowed
+  value: "True"
+  promoted: false
+commentId: O:Page::EOMDB Document Blobs
+name: '"EOMDB Document Blobs"'
+uid: O:Page::EOMDB_Document_Blobs

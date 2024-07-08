@@ -1,0 +1,62 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Functions"'
+alId: ID 70656795
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: SingleInstance
+  value: "True"
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure UpdateNumberOfConnectedBankAccounts(OrganizationId: Integer, NewCount: Integer, Context: Enum "EOMDB Bank Account Context")'
+    parameters:
+    - id: OrganizationId
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: NewCount
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: Context
+      parameterType:
+        internalReference: O:Enum::EOMDB_Bank_Account_Context
+        name: '"EOMDB Bank Account Context"'
+        isExternal: false
+  name: UpdateNumberOfConnectedBankAccounts
+  uid: M:Codeunit::EOMDB_Functions.UpdateNumberOfConnectedBankAccounts(Integer,Integer,Enum::EOMDB_Bank_Account_Context)
+- syntax:
+    content: 'procedure RetrieveAndCalculateConnectedBankAccountsDocura(var ConnectedBankAccounts: Integer, var ConnectionLostExists: Boolean)'
+    parameters:
+    - id: ConnectedBankAccounts
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: ConnectionLostExists
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: RetrieveAndCalculateConnectedBankAccountsDocura
+  uid: M:Codeunit::EOMDB_Functions.RetrieveAndCalculateConnectedBankAccountsDocura(Integer@,Boolean@)
+- syntax:
+    content: 'procedure CalculateDistinctBankAccounts(var TempEOMDBBankingAccountBuffer: Record "EOMDB Banking Account Buffer" temporary): Integer'
+    parameters:
+    - id: TempEOMDBBankingAccountBuffer
+      parameterType:
+        name: Record "EOMDB Banking Account Buffer" temporary
+        isExternal: true
+    return:
+      returnType:
+        name: Integer
+        isExternal: true
+  name: CalculateDistinctBankAccounts
+  uid: M:Codeunit::EOMDB_Functions.CalculateDistinctBankAccounts(EOMDB_Banking_Account_Buffer@):Integer
+commentId: O:Codeunit::EOMDB Functions
+name: '"EOMDB Functions"'
+uid: O:Codeunit::EOMDB_Functions

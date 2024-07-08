@@ -1,0 +1,18 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Doc. Blob Doc. Format"'
+alId: ID 70656779
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+enumValues:
+- name: '" "'
+  uid: E:Enum::EOMDB_Doc#_Blob_Doc#_Format._
+- name: '"Financial Statement"'
+  uid: E:Enum::EOMDB_Doc#_Blob_Doc#_Format.Financial_Statement
+commentId: O:Enum::EOMDB Doc# Blob Doc# Format
+name: '"EOMDB Doc. Blob Doc. Format"'
+uid: O:Enum::EOMDB_Doc#_Blob_Doc#_Format

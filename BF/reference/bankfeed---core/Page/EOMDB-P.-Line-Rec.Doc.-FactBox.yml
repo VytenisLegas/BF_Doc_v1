@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB P. Line Rec.Doc. FactBox"'
+alId: ID 70656862
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Posted_Line_Rec#Document
+  name: '"EOMDB Posted Line Rec.Document"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Recognized Documents (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "70656867"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Posted_Line_Rec#Document
+    name: '"EOMDB Posted Line Rec.Document"'
+    isExternal: false
+commentId: O:Page::EOMDB P# Line Rec#Doc# FactBox
+name: '"EOMDB P. Line Rec.Doc. FactBox"'
+uid: O:Page::EOMDB_P#_Line_Rec#Doc#_FactBox

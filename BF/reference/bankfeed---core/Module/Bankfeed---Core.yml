@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: Bankfeed - Core by Softera Baltic (220.0.23.0)
+baseKind: Module
+kind: Module
+objectProperties:
+- name: Version
+  value: 220.0.23.0
+  promoted: false
+- name: Publisher
+  value: Softera Baltic
+  promoted: false
+- name: Brief
+  value: Softera.Bankfeed
+  promoted: false
+summary: Softera.Bankfeed
+name: Bankfeed - Core
+uid: N:Module::Bankfeed_-_Core

@@ -1,0 +1,30 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Payment Management"'
+alId: ID 70656798
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: SingleInstance
+  value: "True"
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure ExportPaymentsToBlob(FromGenJournalLine: __MissingTypeSymbol__)'
+    parameters:
+    - id: FromGenJournalLine
+      parameterType:
+        name: __MissingTypeSymbol__
+        isExternal: true
+  name: ExportPaymentsToBlob
+  uid: M:Codeunit::EOMDB_Payment_Management.ExportPaymentsToBlob(__MissingSymbol__@)
+commentId: O:Codeunit::EOMDB Payment Management
+name: '"EOMDB Payment Management"'
+uid: O:Codeunit::EOMDB_Payment_Management

@@ -1,0 +1,34 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Posted Pmt. Recon. Line"'
+alId: ID 70656784
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"EOMDB Docu-Bank"'
+  uid: F:TableExtension::EOMDB_Posted_Pmt#_Recon#_Line.EOMDB_Docu-Bank
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"EOMDB Bank Account No."'
+  uid: F:TableExtension::EOMDB_Posted_Pmt#_Recon#_Line.EOMDB_Bank_Account_No#[20]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"EOMDB Transaction ID"'
+  uid: F:TableExtension::EOMDB_Posted_Pmt#_Recon#_Line.EOMDB_Transaction_ID[250]
+- type:
+    name: BigInteger
+    isExternal: true
+  name: '"EOMDB Stmt. Line No."'
+  uid: F:TableExtension::EOMDB_Posted_Pmt#_Recon#_Line.EOMDB_Stmt#_Line_No#
+commentId: O:TableExtension::EOMDB Posted Pmt# Recon# Line
+name: '"EOMDB Posted Pmt. Recon. Line"'
+uid: O:TableExtension::EOMDB_Posted_Pmt#_Recon#_Line

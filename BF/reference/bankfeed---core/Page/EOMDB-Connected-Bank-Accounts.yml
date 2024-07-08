@@ -1,0 +1,65 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Connected Bank Accounts"'
+alId: ID 70656795
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Banking_Account_Buffer
+  name: '"EOMDB Banking Account Buffer"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Bankfeed Connected Bank Accounts
+  promoted: false
+- name: PageType
+  value: Worksheet
+  promoted: true
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: SourceTable
+  value: "70656784"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Banking_Account_Buffer
+    name: '"EOMDB Banking Account Buffer"'
+    isExternal: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: SourceTableView
+  value: sorting("Assigned Bank Account No.")
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "True"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure GetUnassignedBankAccountsNotificationID(): Guid'
+    return:
+      returnType:
+        name: Guid
+        isExternal: true
+  name: GetUnassignedBankAccountsNotificationID
+  uid: M:Page::EOMDB_Connected_Bank_Accounts.GetUnassignedBankAccountsNotificationID:Guid
+- syntax:
+    content: procedure SendUnassignedBankAccountsNotification()
+  name: SendUnassignedBankAccountsNotification
+  uid: M:Page::EOMDB_Connected_Bank_Accounts.SendUnassignedBankAccountsNotification
+commentId: O:Page::EOMDB Connected Bank Accounts
+name: '"EOMDB Connected Bank Accounts"'
+uid: O:Page::EOMDB_Connected_Bank_Accounts

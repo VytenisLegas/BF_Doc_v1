@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Video Category"'
+alId: ID 70656775
+baseKind: Enum
+kind: EnumExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+enumValues:
+- name: '"EOMDB Softera.Bankfeed"'
+  uid: E:EnumExtension::EOMDB_Video_Category.EOMDB_Softera#Bankfeed
+commentId: O:EnumExtension::EOMDB Video Category
+name: '"EOMDB Video Category"'
+uid: O:EnumExtension::EOMDB_Video_Category

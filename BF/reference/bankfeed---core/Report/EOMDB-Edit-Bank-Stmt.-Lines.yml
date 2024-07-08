@@ -1,0 +1,60 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Edit Bank Stmt. Lines"'
+alId: ID 70656781
+baseKind: Report
+kind: Report
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: Caption
+  value: Edit Bank Statement Lines
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: Replace by report EOMDB Edit Unp. Transactions.
+  promoted: false
+- name: ObsoleteTag
+  value: "22.0"
+  promoted: false
+- name: Caption
+  value: Edit Bank Statement Lines
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: Replace by report EOMDB Edit Unp. Transactions.
+  promoted: false
+- name: ObsoleteTag
+  value: "22.0"
+  promoted: false
+commentId: O:Report::EOMDB Edit Bank Stmt# Lines
+name: '"EOMDB Edit Bank Stmt. Lines"'
+obsoletion:
+  state: pending
+  reason: Replace by report EOMDB Edit Unp. Transactions.
+  version: "22.0"
+uid: O:Report::EOMDB_Edit_Bank_Stmt#_Lines

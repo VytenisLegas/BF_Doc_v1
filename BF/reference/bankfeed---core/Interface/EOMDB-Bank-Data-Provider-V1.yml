@@ -1,0 +1,78 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Data Provider V1"'
+baseKind: Interface
+kind: Interface
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: This version is obsolete. Use version 2 instead.
+  promoted: false
+- name: ObsoleteTag
+  value: "23.0"
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: This version is obsolete. Use version 2 instead.
+  promoted: false
+- name: ObsoleteTag
+  value: "23.0"
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure GetInterfaceVersion(): Integer'
+    return:
+      returnType:
+        name: Integer
+        isExternal: true
+  name: GetInterfaceVersion
+  uid: M:Interface::EOMDB_Bank_Data_Provider_V1.GetInterfaceVersion:Integer
+- syntax:
+    content: procedure OpenSetup()
+  name: OpenSetup
+  uid: M:Interface::EOMDB_Bank_Data_Provider_V1.OpenSetup
+- syntax:
+    content: 'procedure ReceiveTransactionData(EOMDBBDPOContext: Codeunit "EOMDB BDPO Context")'
+    parameters:
+    - id: EOMDBBDPOContext
+      parameterType:
+        internalReference: O:Codeunit::EOMDB_BDPO_Context
+        name: '"EOMDB BDPO Context"'
+        isExternal: false
+  name: ReceiveTransactionData
+  uid: M:Interface::EOMDB_Bank_Data_Provider_V1.ReceiveTransactionData(Codeunit::EOMDB_BDPO_Context)
+- syntax:
+    content: 'procedure ImportTransactionData(EOMDBBDPOContext: Codeunit "EOMDB BDPO Context", var EOMDBDocumentBlob: Record "EOMDB Document Blob")'
+    parameters:
+    - id: EOMDBBDPOContext
+      parameterType:
+        internalReference: O:Codeunit::EOMDB_BDPO_Context
+        name: '"EOMDB BDPO Context"'
+        isExternal: false
+    - id: EOMDBDocumentBlob
+      parameterType:
+        name: Record "EOMDB Document Blob"
+        isExternal: true
+  name: ImportTransactionData
+  uid: M:Interface::EOMDB_Bank_Data_Provider_V1.ImportTransactionData(Codeunit::EOMDB_BDPO_Context,EOMDB_Document_Blob@)
+commentId: O:Interface::EOMDB Bank Data Provider V1
+name: '"EOMDB Bank Data Provider V1"'
+obsoletion:
+  state: pending
+  reason: This version is obsolete. Use version 2 instead.
+  version: "23.0"
+uid: O:Interface::EOMDB_Bank_Data_Provider_V1

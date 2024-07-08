@@ -1,0 +1,117 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Text-to-Account Mapping"'
+alId: ID 70656781
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Text-to-Account Mapping (Bankfeed)
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: DataCaptionFields
+  value: "2"
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Text-to-Account Mapping
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Text-to-Account_Mapping
+    name: '"EOMDB Text-to-Account Mapping"'
+    isExternal: false
+- name: DrillDownPageId
+  value: EOMDB Text-to-Account Mapping
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Text-to-Account_Mapping
+    name: '"EOMDB Text-to-Account Mapping"'
+    isExternal: false
+methods:
+- syntax:
+    content: 'procedure GetAccountNo(Amount: Decimal): Code[20]'
+    parameters:
+    - id: Amount
+      parameterType:
+        name: Decimal
+        isExternal: true
+    return:
+      returnType:
+        name: Code[20]
+        isExternal: true
+  name: GetAccountNo
+  uid: M:Table::EOMDB_Text-to-Account_Mapping.GetAccountNo(Decimal):Code[20]
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Line No."'
+  uid: F:Table::EOMDB_Text-to-Account_Mapping.Line_No#
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"Mapping Text"'
+  uid: F:Table::EOMDB_Text-to-Account_Mapping.Mapping_Text[250]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Debit Acc. No."'
+  uid: F:Table::EOMDB_Text-to-Account_Mapping.Debit_Acc#_No#[20]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Credit Acc. No."'
+  uid: F:Table::EOMDB_Text-to-Account_Mapping.Credit_Acc#_No#[20]
+- type:
+    name: __MissingTypeSymbol__
+    isExternal: true
+  name: '"Bal. Source Type"'
+  uid: F:Table::EOMDB_Text-to-Account_Mapping.Bal#_Source_Type
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Bal. Source No."'
+  uid: F:Table::EOMDB_Text-to-Account_Mapping.Bal#_Source_No#[20]
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Part of Word"'
+  uid: F:Table::EOMDB_Text-to-Account_Mapping.Part_of_Word
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Text-to-Account_Mapping.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Text-to-Account_Mapping.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Text-to-Account_Mapping.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Text-to-Account_Mapping.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Text-to-Account_Mapping.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Text-to-Account_Mapping.SystemRowVersion
+commentId: O:Table::EOMDB Text-to-Account Mapping
+name: '"EOMDB Text-to-Account Mapping"'
+uid: O:Table::EOMDB_Text-to-Account_Mapping

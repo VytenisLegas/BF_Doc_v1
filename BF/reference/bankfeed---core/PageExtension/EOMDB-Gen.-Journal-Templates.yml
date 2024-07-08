@@ -1,0 +1,13 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Gen. Journal Templates"'
+alId: ID 70656779
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::EOMDB Gen# Journal Templates
+name: '"EOMDB Gen. Journal Templates"'
+uid: O:PageExtension::EOMDB_Gen#_Journal_Templates

@@ -1,0 +1,115 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Proc. Bank Data Options"'
+alId: ID 70656812
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "False"
+  promoted: true
+- name: Caption
+  value: Process Bank Data Options (Bankfeed)
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: TableType
+  value: Temporary
+  promoted: false
+fields:
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Primary Key"'
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.Primary_Key[10]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Bank Data Provider Code"'
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.Bank_Data_Provider_Code[20]
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Receive Transaction Data"'
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.Receive_Transaction_Data
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Import Transaction Data"'
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.Import_Transaction_Data
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Skip Recognition"'
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.Skip_Recognition
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Fill Journals"'
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.Fill_Journals
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Only Recognized"'
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.Only_Recognized
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Post Journals"'
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.Post_Journals
+- type:
+    name: Text[2048]
+    isExternal: true
+  name: '"Bal. Bank Account No. Filter"'
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.Bal#_Bank_Account_No#_Filter[2048]
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Post Only Recognized"'
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.Post_Only_Recognized
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Post Only Fully Applied"'
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.Post_Only_Fully_Applied
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Proc#_Bank_Data_Options.SystemRowVersion
+commentId: O:Table::EOMDB Proc# Bank Data Options
+name: '"EOMDB Proc. Bank Data Options"'
+uid: O:Table::EOMDB_Proc#_Bank_Data_Options

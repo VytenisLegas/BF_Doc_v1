@@ -1,0 +1,642 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" ">
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../public/aldoc_logo.svg" alt="Documentation">
+            Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="O:Table::EOMDB_SEPA_Camt_Entry">
+  <h1>Table &quot;EOMDB SEPA Camt Entry&quot;</h1>
+
+
+<div class="font-style-italic">ID 70656778</div>
+
+
+
+
+  	<div class="CAUTION alert alert-danger alert-is-danger">
+  		<h5 class="alert-title">Obsolete</h5>
+  			<p>This element will become obsolete from version . Removed. Use table EOMDB Bank Statement Entry with optimized keys.</p>
+  	</div>
+
+
+
+  	<h2 id="properties">Properties</h2>
+
+  	<table class="table">
+  		<thead>
+  			<tr>
+  				<th>Name</th>
+  				<th>Value</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  			<tr>
+  					<td>Caption</td>
+  					<td class="font-style-italic">
+							 
+  					</td>
+  			</tr>
+  			<tr>
+  					<td>DataClassification</td>
+  					<td class="font-style-italic">
+							CustomerContent
+  					</td>
+  			</tr>
+  			<tr>
+  					<td>ObsoleteState</td>
+  					<td class="font-style-italic">
+							Pending
+  					</td>
+  			</tr>
+  			<tr>
+  					<td>ObsoleteReason</td>
+  					<td class="font-style-italic">
+							Removed. Use table EOMDB Bank Statement Entry with optimized keys.
+  					</td>
+  			</tr>
+  		</tbody>
+  	</table>
+  	<h2 id="fields">Fields</h2>
+  	<table class="table">
+  		<thead>
+  			<tr>
+  				<th>Name</th>
+  				<th>Type</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  				<tr>
+  					<td>&quot;Entry No.&quot;</td>
+  					<td class="font-style-italic">
+Integer						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Doc. Blob ID&quot;</td>
+  					<td class="font-style-italic">
+Guid						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Recognition Status&quot;</td>
+  					<td class="font-style-italic">
+Option						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Recognition Date-Time&quot;</td>
+  					<td class="font-style-italic">
+DateTime						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>Status</td>
+  					<td class="font-style-italic">
+Option						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Operation Date&quot;</td>
+  					<td class="font-style-italic">
+Date						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Document No.&quot;</td>
+  					<td class="font-style-italic">
+Code[20]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;External Document No.&quot;</td>
+  					<td class="font-style-italic">
+Code[35]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Recognized Document No. Filter&quot;</td>
+  					<td class="font-style-italic">
+Code[35]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Recognized Document Exist&quot;</td>
+  					<td class="font-style-italic">
+Boolean						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Entry Type&quot;</td>
+  					<td class="font-style-italic">
+<a class="xref" href="../Enum/EOMDB-SEPA-Camt-Entry-Type.html">&quot;EOMDB SEPA Camt Entry Type&quot;</a>						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Entry Account Type&quot;</td>
+  					<td class="font-style-italic">
+<a class="xref" href="../Enum/EOMDB-SEPA-Camt-E.-Acc.-Type.html">&quot;EOMDB SEPA Camt E. Acc. Type&quot;</a>						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Bank Account No.&quot;</td>
+  					<td class="font-style-italic">
+Code[20]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Currency Code&quot;</td>
+  					<td class="font-style-italic">
+Code[10]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Account Recognition Type&quot;</td>
+  					<td class="font-style-italic">
+<a class="xref" href="../Enum/EOMDB-Account-Recognition-Type.html">&quot;EOMDB Account Recognition Type&quot;</a>						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Recognized Account Type&quot;</td>
+  					<td class="font-style-italic">
+__MissingTypeSymbol__						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Recognized Account No.&quot;</td>
+  					<td class="font-style-italic">
+Code[20]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Bank Fees Account Type&quot;</td>
+  					<td class="font-style-italic">
+__MissingTypeSymbol__						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Bank Fees Account No.&quot;</td>
+  					<td class="font-style-italic">
+Code[20]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>Amount</td>
+  					<td class="font-style-italic">
+Decimal						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Bank Charge&quot;</td>
+  					<td class="font-style-italic">
+Decimal						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Bank Charge (OCMT)&quot;</td>
+  					<td class="font-style-italic">
+Decimal						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>Description</td>
+  					<td class="font-style-italic">
+Text[100]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Message to Recipient&quot;</td>
+  					<td class="font-style-italic">
+Text[140]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Payer Information&quot;</td>
+  					<td class="font-style-italic">
+Text[50]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Transaction Information&quot;</td>
+  					<td class="font-style-italic">
+Text[100]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Acct.Id.IBAN&quot;</td>
+  					<td class="font-style-italic">
+Code[34]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;Acct.Ccy&quot;</td>
+  					<td class="font-style-italic">
+Code[3]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.BkTxCd.Domn.Cd&quot;</td>
+  					<td class="font-style-italic">
+Text[4]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.BkTxCd.Domn.Fmly.Cd&quot;</td>
+  					<td class="font-style-italic">
+Text[4]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.BkTxCd.Domn.Prtry.Cd&quot;</td>
+  					<td class="font-style-italic">
+Text[35]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.BkTxCd.Domn.Fmly.SubFmlyCd&quot;</td>
+  					<td class="font-style-italic">
+Text[4]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.Refs.AcctSvcrRef&quot;</td>
+  					<td class="font-style-italic">
+Text[35]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.Refs.InstrId&quot;</td>
+  					<td class="font-style-italic">
+Text[35]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.AcctSvcrRef&quot;</td>
+  					<td class="font-style-italic">
+Text[35]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.CdtDbtInd&quot;</td>
+  					<td class="font-style-italic">
+Option						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.Amt&quot;</td>
+  					<td class="font-style-italic">
+Decimal						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.BookDt.Dt&quot;</td>
+  					<td class="font-style-italic">
+Date						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.BookDt.DtTm&quot;</td>
+  					<td class="font-style-italic">
+DateTime						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ValDt.Dt&quot;</td>
+  					<td class="font-style-italic">
+Date						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ValDt.DtTm&quot;</td>
+  					<td class="font-style-italic">
+DateTime						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.RvslInd&quot;</td>
+  					<td class="font-style-italic">
+Boolean						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.Chrgs.Amt&quot;</td>
+  					<td class="font-style-italic">
+Decimal						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RP.DbtrAcct.Id.IBAN&quot;</td>
+  					<td class="font-style-italic">
+Code[34]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RP.Dbtr.Nm&quot;</td>
+  					<td class="font-style-italic">
+Text[140]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RP.DbtrAcct.Id.Othr.Id&quot;</td>
+  					<td class="font-style-italic">
+Text[34]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RP.D.Id.OrgId.Othr.Id&quot;</td>
+  					<td class="font-style-italic">
+Text[35]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RP.CdtrAcct.Id.IBAN&quot;</td>
+  					<td class="font-style-italic">
+Code[34]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RP.Cdtr.Nm&quot;</td>
+  					<td class="font-style-italic">
+Text[140]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RP.CdtrAcct.Id.Othr.Id&quot;</td>
+  					<td class="font-style-italic">
+Text[34]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RP.C.Id.OrgId.Othr.Id&quot;</td>
+  					<td class="font-style-italic">
+Text[35]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RmtInf.Ustrd&quot;</td>
+  					<td class="font-style-italic">
+Text[250]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RmtInf.Ustrd 2&quot;</td>
+  					<td class="font-style-italic">
+Text[250]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RmtInf.Ustrd 3&quot;</td>
+  					<td class="font-style-italic">
+Text[250]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RmtInf.Ustrd 4&quot;</td>
+  					<td class="font-style-italic">
+Text[250]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RmtInf.Ustrd Blob&quot;</td>
+  					<td class="font-style-italic">
+Blob						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.RI.S.CRI.Ref&quot;</td>
+  					<td class="font-style-italic">
+Text[35]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.Refs.EndToEndId&quot;</td>
+  					<td class="font-style-italic">
+Text[35]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.AD.TxAmt.Amt&quot;</td>
+  					<td class="font-style-italic">
+Decimal						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.ND.TD.AD.TxAmt.Amt.Ccy&quot;</td>
+  					<td class="font-style-italic">
+Code[3]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.AddtlNtryInf&quot;</td>
+  					<td class="font-style-italic">
+Text[250]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>&quot;N.AddtlNtryInf 2&quot;</td>
+  					<td class="font-style-italic">
+Text[250]						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemId</td>
+  					<td class="font-style-italic">
+Guid						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemCreatedAt</td>
+  					<td class="font-style-italic">
+DateTime						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemCreatedBy</td>
+  					<td class="font-style-italic">
+Guid						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemModifiedAt</td>
+  					<td class="font-style-italic">
+DateTime						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemModifiedBy</td>
+  					<td class="font-style-italic">
+Guid						
+  					</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>SystemRowVersion</td>
+  					<td class="font-style-italic">
+BigInteger						
+  					</td>
+  					<td></td>
+  				</tr>
+  		</tbody>
+  	</table>
+
+  	<h2 id="see-also">See also</h2>
+  	<ul>
+  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object">Table</a></p>
+</li>
+  	</ul>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Made with <a href="https://go.microsoft.com/fwlink/?linkid=2247728">ALDoc</a> and <a href="https://dotnet.github.io/docfx">DocFx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

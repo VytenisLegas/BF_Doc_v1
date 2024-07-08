@@ -1,0 +1,46 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Statements"'
+alId: ID 70656779
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Bank_Statement
+  name: '"EOMDB Bank Statement"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Bank Statements (Bankfeed)
+  promoted: false
+- name: AboutTitle
+  value: About bank statements
+  promoted: false
+- name: AboutText
+  value: Here you can see the information of all parsed statement batches. The period of statement batch, the IBAN of the account, currency, number of debits and credits, amount.
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "70656779"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Bank_Statement
+    name: '"EOMDB Bank Statement"'
+    isExternal: false
+- name: Editable
+  value: "False"
+  promoted: false
+commentId: O:Page::EOMDB Bank Statements
+name: '"EOMDB Bank Statements"'
+uid: O:Page::EOMDB_Bank_Statements

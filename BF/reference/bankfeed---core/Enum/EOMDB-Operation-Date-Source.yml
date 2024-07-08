@@ -1,0 +1,25 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Operation Date Source"'
+alId: ID 70656800
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Caption
+  value: Operation Date Source
+  promoted: false
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- name: Booking
+  uid: E:Enum::EOMDB_Operation_Date_Source.Booking
+- name: Value
+  uid: E:Enum::EOMDB_Operation_Date_Source.Value
+commentId: O:Enum::EOMDB Operation Date Source
+name: '"EOMDB Operation Date Source"'
+uid: O:Enum::EOMDB_Operation_Date_Source

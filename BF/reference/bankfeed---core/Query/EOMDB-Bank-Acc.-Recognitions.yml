@@ -1,0 +1,66 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Acc. Recognitions"'
+alId: ID 70656777
+baseKind: Query
+kind: Query
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Bank Account Recognitions
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+- name: ReadState
+  value: ReadUncommitted
+  promoted: false
+- name: OrderBy
+  value: descending(bankEntryNumber)
+  promoted: false
+queryColumns:
+- dataItem: EOMDB_Bank_Statement_Entry
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: statementBankAccountNumber
+  uid: C:Query::EOMDB_Bank_Acc#_Recognitions.EOMDB_Bank_Statement_Entry.statementBankAccountNumber
+- dataItem: EOMDB_Bank_Statement_Entry
+  columnType:
+    name: Code[35]
+    isExternal: true
+  name: statementExternalDocumentNumber
+  uid: C:Query::EOMDB_Bank_Acc#_Recognitions.EOMDB_Bank_Statement_Entry.statementExternalDocumentNumber
+- dataItem: Bank_Account_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: bankEntryNumber
+  uid: C:Query::EOMDB_Bank_Acc#_Recognitions.EOMDB_Bank_Statement_Entry.Bank_Account_Ledger_Entry.bankEntryNumber
+- dataItem: Bank_Account_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: bankAccountNumber
+  uid: C:Query::EOMDB_Bank_Acc#_Recognitions.EOMDB_Bank_Statement_Entry.Bank_Account_Ledger_Entry.bankAccountNumber
+- dataItem: Bank_Account_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: balAccountType
+  uid: C:Query::EOMDB_Bank_Acc#_Recognitions.EOMDB_Bank_Statement_Entry.Bank_Account_Ledger_Entry.balAccountType
+- dataItem: Bank_Account_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: balAccountNumber
+  uid: C:Query::EOMDB_Bank_Acc#_Recognitions.EOMDB_Bank_Statement_Entry.Bank_Account_Ledger_Entry.balAccountNumber
+commentId: O:Query::EOMDB Bank Acc# Recognitions
+name: '"EOMDB Bank Acc. Recognitions"'
+uid: O:Query::EOMDB_Bank_Acc#_Recognitions

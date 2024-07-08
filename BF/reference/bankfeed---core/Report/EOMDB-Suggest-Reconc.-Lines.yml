@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Suggest Reconc. Lines"'
+alId: ID 70656787
+baseKind: Report
+kind: Report
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: Caption
+  value: Suggest Bank Acc. Reconc. Lines (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: Caption
+  value: Suggest Bank Acc. Reconc. Lines (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+commentId: O:Report::EOMDB Suggest Reconc# Lines
+name: '"EOMDB Suggest Reconc. Lines"'
+uid: O:Report::EOMDB_Suggest_Reconc#_Lines

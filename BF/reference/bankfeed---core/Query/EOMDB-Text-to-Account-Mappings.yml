@@ -1,0 +1,63 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Text-to-Account Mappings"'
+alId: ID 70656790
+baseKind: Query
+kind: Query
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Text-to-Account Mappings
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+- name: ReadState
+  value: ReadUncommitted
+  promoted: false
+queryColumns:
+- dataItem: EOMDB_Text_to_Account_Mapping
+  columnType:
+    name: Text[250]
+    isExternal: true
+  name: mappingText
+  uid: C:Query::EOMDB_Text-to-Account_Mappings.EOMDB_Text_to_Account_Mapping.mappingText
+- dataItem: EOMDB_Text_to_Account_Mapping
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: debitAccountNumber
+  uid: C:Query::EOMDB_Text-to-Account_Mappings.EOMDB_Text_to_Account_Mapping.debitAccountNumber
+- dataItem: EOMDB_Text_to_Account_Mapping
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: creditAccountNumber
+  uid: C:Query::EOMDB_Text-to-Account_Mappings.EOMDB_Text_to_Account_Mapping.creditAccountNumber
+- dataItem: EOMDB_Text_to_Account_Mapping
+  columnType:
+    name: __MissingTypeSymbol__
+    isExternal: true
+  name: balSourceType
+  uid: C:Query::EOMDB_Text-to-Account_Mappings.EOMDB_Text_to_Account_Mapping.balSourceType
+- dataItem: EOMDB_Text_to_Account_Mapping
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: balSourceNumber
+  uid: C:Query::EOMDB_Text-to-Account_Mappings.EOMDB_Text_to_Account_Mapping.balSourceNumber
+- dataItem: EOMDB_Text_to_Account_Mapping
+  columnType:
+    name: Boolean
+    isExternal: true
+  name: partOfWord
+  uid: C:Query::EOMDB_Text-to-Account_Mappings.EOMDB_Text_to_Account_Mapping.partOfWord
+commentId: O:Query::EOMDB Text-to-Account Mappings
+name: '"EOMDB Text-to-Account Mappings"'
+uid: O:Query::EOMDB_Text-to-Account_Mappings

@@ -1,0 +1,192 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Document Blob"'
+alId: ID 70656775
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Statement Batch (Bankfeed)
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Document Blobs
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Document_Blobs
+    name: '"EOMDB Document Blobs"'
+    isExternal: false
+- name: DrillDownPageId
+  value: EOMDB Document Blobs
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Document_Blobs
+    name: '"EOMDB Document Blobs"'
+    isExternal: false
+methods:
+- syntax:
+    content: 'procedure Initialize(DocumentInStream: InStream, DocumentFormat: Enum "EOMDB Doc. Blob Doc. Format", _Source: Enum "EOMDB Document Blob Source", ExternalDocumentId: Text[100])'
+    parameters:
+    - id: DocumentInStream
+      parameterType:
+        name: InStream
+        isExternal: true
+    - id: DocumentFormat
+      parameterType:
+        internalReference: O:Enum::EOMDB_Doc#_Blob_Doc#_Format
+        name: '"EOMDB Doc. Blob Doc. Format"'
+        isExternal: false
+    - id: _Source
+      parameterType:
+        internalReference: O:Enum::EOMDB_Document_Blob_Source
+        name: '"EOMDB Document Blob Source"'
+        isExternal: false
+    - id: ExternalDocumentId
+      parameterType:
+        name: Text[100]
+        isExternal: true
+  name: Initialize
+  uid: M:Table::EOMDB_Document_Blob.Initialize(InStream,Enum::EOMDB_Doc#_Blob_Doc#_Format,Enum::EOMDB_Document_Blob_Source,Text[100])
+- syntax:
+    content: 'procedure Initialize(DocumentBase64String: Text, DocumentFormat: Enum "EOMDB Doc. Blob Doc. Format", _Source: Enum "EOMDB Document Blob Source", ExternalDocumentId: Text[100])'
+    parameters:
+    - id: DocumentBase64String
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: DocumentFormat
+      parameterType:
+        internalReference: O:Enum::EOMDB_Doc#_Blob_Doc#_Format
+        name: '"EOMDB Doc. Blob Doc. Format"'
+        isExternal: false
+    - id: _Source
+      parameterType:
+        internalReference: O:Enum::EOMDB_Document_Blob_Source
+        name: '"EOMDB Document Blob Source"'
+        isExternal: false
+    - id: ExternalDocumentId
+      parameterType:
+        name: Text[100]
+        isExternal: true
+  name: Initialize
+  uid: M:Table::EOMDB_Document_Blob.Initialize(Text,Enum::EOMDB_Doc#_Blob_Doc#_Format,Enum::EOMDB_Document_Blob_Source,Text[100])
+fields:
+- type:
+    name: Guid
+    isExternal: true
+  name: '"Doc. Blob ID"'
+  uid: F:Table::EOMDB_Document_Blob.Doc#_Blob_ID
+- type:
+    name: Blob
+    isExternal: true
+  name: '"Document Blob"'
+  uid: F:Table::EOMDB_Document_Blob.Document_Blob
+- type:
+    name: Code[64]
+    isExternal: true
+  name: '"Document Hash (SHA-256)"'
+  uid: F:Table::EOMDB_Document_Blob.Document_Hash_(SHA-256)[64]
+- type:
+    internalReference: O:Enum::EOMDB_Doc#_Blob_Doc#_Format
+    name: '"EOMDB Doc. Blob Doc. Format"'
+    isExternal: false
+  name: '"Document Format"'
+  uid: F:Table::EOMDB_Document_Blob.Document_Format
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"Creation Date-Time"'
+  uid: F:Table::EOMDB_Document_Blob.Creation_Date-Time
+- type:
+    name: Option
+    isExternal: true
+  name: Status
+  obsoletion:
+    state: pending
+    reason: Replaced with field Document Blob Status
+    version: ""
+  uid: F:Table::EOMDB_Document_Blob.Status
+- type:
+    internalReference: O:Enum::EOMDB_Document_Blob_Source
+    name: '"EOMDB Document Blob Source"'
+    isExternal: false
+  name: Source
+  uid: F:Table::EOMDB_Document_Blob.Source
+- type:
+    name: Code[50]
+    isExternal: true
+  name: '"User ID"'
+  uid: F:Table::EOMDB_Document_Blob.User_ID[50]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Bank Data Provider Code"'
+  uid: F:Table::EOMDB_Document_Blob.Bank_Data_Provider_Code[20]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"External Document ID"'
+  uid: F:Table::EOMDB_Document_Blob.External_Document_ID[100]
+- type:
+    internalReference: O:Enum::EOMDB_Financial_Statement_Type
+    name: '"EOMDB Financial Statement Type"'
+    isExternal: false
+  name: '"Financial Statement Type"'
+  uid: F:Table::EOMDB_Document_Blob.Financial_Statement_Type
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Upgrade Tag"'
+  obsoletion:
+    state: pending
+    reason: Unused.
+    version: ""
+  uid: F:Table::EOMDB_Document_Blob.Upgrade_Tag
+- type:
+    internalReference: O:Enum::EOMDB_Document_Blob_Status
+    name: '"EOMDB Document Blob Status"'
+    isExternal: false
+  name: '"Document Blob Status"'
+  uid: F:Table::EOMDB_Document_Blob.Document_Blob_Status
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Document_Blob.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Document_Blob.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Document_Blob.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Document_Blob.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Document_Blob.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Document_Blob.SystemRowVersion
+commentId: O:Table::EOMDB Document Blob
+name: '"EOMDB Document Blob"'
+uid: O:Table::EOMDB_Document_Blob

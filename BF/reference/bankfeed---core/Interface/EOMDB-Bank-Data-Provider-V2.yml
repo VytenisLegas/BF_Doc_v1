@@ -1,0 +1,73 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Data Provider V2"'
+baseKind: Interface
+kind: Interface
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure GetInterfaceVersion(): Integer'
+    return:
+      returnType:
+        name: Integer
+        isExternal: true
+  name: GetInterfaceVersion
+  uid: M:Interface::EOMDB_Bank_Data_Provider_V2.GetInterfaceVersion:Integer
+- syntax:
+    content: procedure OpenSetup()
+  name: OpenSetup
+  uid: M:Interface::EOMDB_Bank_Data_Provider_V2.OpenSetup
+- syntax:
+    content: 'procedure ReceiveTransactionData(EOMDBBDPOContext: Codeunit "EOMDB BDPO Context")'
+    parameters:
+    - id: EOMDBBDPOContext
+      parameterType:
+        internalReference: O:Codeunit::EOMDB_BDPO_Context
+        name: '"EOMDB BDPO Context"'
+        isExternal: false
+  name: ReceiveTransactionData
+  uid: M:Interface::EOMDB_Bank_Data_Provider_V2.ReceiveTransactionData(Codeunit::EOMDB_BDPO_Context)
+- syntax:
+    content: 'procedure ImportTransactionData(EOMDBBDPOContext: Codeunit "EOMDB BDPO Context", var EOMDBDocumentBlob: Record "EOMDB Document Blob")'
+    parameters:
+    - id: EOMDBBDPOContext
+      parameterType:
+        internalReference: O:Codeunit::EOMDB_BDPO_Context
+        name: '"EOMDB BDPO Context"'
+        isExternal: false
+    - id: EOMDBDocumentBlob
+      parameterType:
+        name: Record "EOMDB Document Blob"
+        isExternal: true
+  name: ImportTransactionData
+  uid: M:Interface::EOMDB_Bank_Data_Provider_V2.ImportTransactionData(Codeunit::EOMDB_BDPO_Context,EOMDB_Document_Blob@)
+- syntax:
+    content: 'procedure RetrieveAndCalculateConnectedBankAccounts(var ConnectedBankAccounts: Integer, var ConnectionLostExists: Boolean)'
+    parameters:
+    - id: ConnectedBankAccounts
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: ConnectionLostExists
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: RetrieveAndCalculateConnectedBankAccounts
+  uid: M:Interface::EOMDB_Bank_Data_Provider_V2.RetrieveAndCalculateConnectedBankAccounts(Integer@,Boolean@)
+- syntax:
+    content: procedure OpenConnectedBankAccounts()
+  name: OpenConnectedBankAccounts
+  uid: M:Interface::EOMDB_Bank_Data_Provider_V2.OpenConnectedBankAccounts
+commentId: O:Interface::EOMDB Bank Data Provider V2
+name: '"EOMDB Bank Data Provider V2"'
+uid: O:Interface::EOMDB_Bank_Data_Provider_V2

@@ -1,0 +1,26 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Download Pattern"'
+alId: ID 70656783
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- name: PREVIOUS_DAY
+  uid: E:Enum::EOMDB_Download_Pattern.PREVIOUS_DAY
+- name: PREVIOUS_MONTH
+  uid: E:Enum::EOMDB_Download_Pattern.PREVIOUS_MONTH
+- name: PERIOD
+  uid: E:Enum::EOMDB_Download_Pattern.PERIOD
+- name: TODAY
+  uid: E:Enum::EOMDB_Download_Pattern.TODAY
+commentId: O:Enum::EOMDB Download Pattern
+name: '"EOMDB Download Pattern"'
+uid: O:Enum::EOMDB_Download_Pattern

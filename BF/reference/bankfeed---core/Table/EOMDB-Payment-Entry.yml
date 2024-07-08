@@ -1,0 +1,299 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Payment Entry"'
+alId: ID 70656804
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+- name: Caption
+  value: Payment Entry (Bankfeed)
+  promoted: false
+- name: DataCaptionFields
+  value: 20,21,34
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: LookupPageId
+  value: EOMDB Payment Register Entries
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Payment_Register_Entries
+    name: '"EOMDB Payment Register Entries"'
+    isExternal: false
+- name: DrillDownPageId
+  value: EOMDB Payment Register Entries
+  promoted: false
+  xrefType:
+    internalReference: O:Page::EOMDB_Payment_Register_Entries
+    name: '"EOMDB Payment Register Entries"'
+    isExternal: false
+methods:
+- syntax:
+    content: 'procedure CreateNew(RegisterNo: Integer, EntryNo: Integer, GenJnlAccountType: __MissingTypeSymbol__, AccountNo: Code[20], LedgerEntryNo: Integer, PaymentDate: Date, CurrencyCode: Code[10], PaymentAmount: Decimal, TransactionID: Text[35], PaymentReference: Code[50], RecipientBankAccount: Code[20], MessageToRecipient: Text[140])'
+    parameters:
+    - id: RegisterNo
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: EntryNo
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: GenJnlAccountType
+      parameterType:
+        name: __MissingTypeSymbol__
+        isExternal: true
+    - id: AccountNo
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: LedgerEntryNo
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: PaymentDate
+      parameterType:
+        name: Date
+        isExternal: true
+    - id: CurrencyCode
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: PaymentAmount
+      parameterType:
+        name: Decimal
+        isExternal: true
+    - id: TransactionID
+      parameterType:
+        name: Text[35]
+        isExternal: true
+    - id: PaymentReference
+      parameterType:
+        name: Code[50]
+        isExternal: true
+    - id: RecipientBankAccount
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: MessageToRecipient
+      parameterType:
+        name: Text[140]
+        isExternal: true
+  name: CreateNew
+  uid: M:Table::EOMDB_Payment_Entry.CreateNew(Integer,Integer,__MissingSymbol__,Code[20],Integer,Date,Code[10],Decimal,Text[35],Code[50],Code[20],Text[140])
+- syntax:
+    content: procedure FillRecipientData()
+  name: FillRecipientData
+  uid: M:Table::EOMDB_Payment_Entry.FillRecipientData
+- syntax:
+    content: procedure FillRecipientDataEmployee()
+  name: FillRecipientDataEmployee
+  uid: M:Table::EOMDB_Payment_Entry.FillRecipientDataEmployee
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Payment Register No."'
+  uid: F:Table::EOMDB_Payment_Entry.Payment_Register_No#
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Entry No."'
+  uid: F:Table::EOMDB_Payment_Entry.Entry_No#
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Document No."'
+  uid: F:Table::EOMDB_Payment_Entry.Document_No#[20]
+- type:
+    name: Code[35]
+    isExternal: true
+  name: '"External Document No."'
+  uid: F:Table::EOMDB_Payment_Entry.External_Document_No#[35]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: Description
+  uid: F:Table::EOMDB_Payment_Entry.Description[100]
+- type:
+    internalReference: O:Enum::EOMDB_Payment_Account_Type
+    name: '"EOMDB Payment Account Type"'
+    isExternal: false
+  name: '"Account Type"'
+  uid: F:Table::EOMDB_Payment_Entry.Account_Type
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Account No."'
+  uid: F:Table::EOMDB_Payment_Entry.Account_No#[20]
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Applies-to Entry No."'
+  uid: F:Table::EOMDB_Payment_Entry.Applies-to_Entry_No#
+- type:
+    name: Date
+    isExternal: true
+  name: '"Payment Date"'
+  uid: F:Table::EOMDB_Payment_Entry.Payment_Date
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Currency Code"'
+  uid: F:Table::EOMDB_Payment_Entry.Currency_Code[10]
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Payment Amount"'
+  uid: F:Table::EOMDB_Payment_Entry.Payment_Amount
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"Transaction ID"'
+  uid: F:Table::EOMDB_Payment_Entry.Transaction_ID[35]
+- type:
+    name: Code[50]
+    isExternal: true
+  name: '"Payment Reference"'
+  uid: F:Table::EOMDB_Payment_Entry.Payment_Reference[50]
+- type:
+    name: Text[140]
+    isExternal: true
+  name: '"Message to Recipient"'
+  uid: F:Table::EOMDB_Payment_Entry.Message_to_Recipient[140]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"Recipient Name"'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Name[100]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"Recipient Name 2"'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Name_2[100]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"Recipient Address"'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Address[100]
+- type:
+    name: Text[50]
+    isExternal: true
+  name: '"Recipient Address 2"'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Address_2[50]
+- type:
+    name: Text[30]
+    isExternal: true
+  name: '"Recipient City"'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_City[30]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Recipient Post Code"'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Post_Code[20]
+- type:
+    name: Text[30]
+    isExternal: true
+  name: '"Recipient County"'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_County[30]
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Recipient Country/Region Code"'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Country/Region_Code[10]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Recipient Bank Acc. No."'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Bank_Acc#_No#[20]
+- type:
+    name: Code[30]
+    isExternal: true
+  name: '"Recipient Bank Account No."'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Bank_Account_No#[30]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"Recipient Bank Account Name"'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Bank_Account_Name[100]
+- type:
+    name: Text[20]
+    isExternal: true
+  name: '"Recipient Bank Branch No."'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Bank_Branch_No#[20]
+- type:
+    name: Text[20]
+    isExternal: true
+  name: '"Recipient Payment Routing No."'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Payment_Routing_No#[20]
+- type:
+    name: Text[20]
+    isExternal: true
+  name: '"Recipient Giro No."'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Giro_No#[20]
+- type:
+    name: Code[50]
+    isExternal: true
+  name: '"Recipient IBAN"'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_IBAN[50]
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Recipient SWIFT Code"'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_SWIFT_Code[20]
+- type:
+    name: Code[34]
+    isExternal: true
+  name: '"Recipient Provider Bank Acc.ID"'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Provider_Bank_Acc#ID[34]
+- type:
+    name: Text[50]
+    isExternal: true
+  name: '"Recipient Bank Clearing Code"'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Bank_Clearing_Code[50]
+- type:
+    name: Text[50]
+    isExternal: true
+  name: '"Recipient Bank Clearing Stand."'
+  uid: F:Table::EOMDB_Payment_Entry.Recipient_Bank_Clearing_Stand#[50]
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_Payment_Entry.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_Payment_Entry.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_Payment_Entry.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_Payment_Entry.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_Payment_Entry.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_Payment_Entry.SystemRowVersion
+commentId: O:Table::EOMDB Payment Entry
+name: '"EOMDB Payment Entry"'
+uid: O:Table::EOMDB_Payment_Entry

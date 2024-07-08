@@ -1,0 +1,13 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Credit Transf. Registers"'
+alId: ID 70656786
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::EOMDB Credit Transf# Registers
+name: '"EOMDB Credit Transf. Registers"'
+uid: O:PageExtension::EOMDB_Credit_Transf#_Registers

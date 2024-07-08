@@ -1,0 +1,108 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Cust. Ledger Entries"'
+alId: ID 70656779
+baseKind: Query
+kind: Query
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Customer Ledger Entries
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+- name: ReadState
+  value: ReadUncommitted
+  promoted: false
+- name: OrderBy
+  value: descending(entryNumber)
+  promoted: false
+queryColumns:
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: entryNumber
+  uid: C:Query::EOMDB_Cust#_Ledger_Entries.Cust__Ledger_Entry.entryNumber
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: customerNumber
+  uid: C:Query::EOMDB_Cust#_Ledger_Entries.Cust__Ledger_Entry.customerNumber
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: postingDate
+  uid: C:Query::EOMDB_Cust#_Ledger_Entries.Cust__Ledger_Entry.postingDate
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: documentType
+  uid: C:Query::EOMDB_Cust#_Ledger_Entries.Cust__Ledger_Entry.documentType
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: documentNumber
+  uid: C:Query::EOMDB_Cust#_Ledger_Entries.Cust__Ledger_Entry.documentNumber
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: externalDocumentNumber
+  uid: C:Query::EOMDB_Cust#_Ledger_Entries.Cust__Ledger_Entry.externalDocumentNumber
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: currencyCode
+  uid: C:Query::EOMDB_Cust#_Ledger_Entries.Cust__Ledger_Entry.currencyCode
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: amount
+  uid: C:Query::EOMDB_Cust#_Ledger_Entries.Cust__Ledger_Entry.amount
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: remainingAmount
+  uid: C:Query::EOMDB_Cust#_Ledger_Entries.Cust__Ledger_Entry.remainingAmount
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: isOpen
+  uid: C:Query::EOMDB_Cust#_Ledger_Entries.Cust__Ledger_Entry.isOpen
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: dueDate
+  uid: C:Query::EOMDB_Cust#_Ledger_Entries.Cust__Ledger_Entry.dueDate
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: documentDate
+  uid: C:Query::EOMDB_Cust#_Ledger_Entries.Cust__Ledger_Entry.documentDate
+- dataItem: Cust__Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: closedAtDate
+  uid: C:Query::EOMDB_Cust#_Ledger_Entries.Cust__Ledger_Entry.closedAtDate
+commentId: O:Query::EOMDB Cust# Ledger Entries
+name: '"EOMDB Cust. Ledger Entries"'
+uid: O:Query::EOMDB_Cust#_Ledger_Entries

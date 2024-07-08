@@ -1,0 +1,29 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Document Blob Status"'
+alId: ID 70656786
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+- name: Caption
+  value: Document Blob Status
+  promoted: false
+enumValues:
+- name: '" "'
+  uid: E:Enum::EOMDB_Document_Blob_Status._
+- name: Received
+  uid: E:Enum::EOMDB_Document_Blob_Status.Received
+- name: Parsed
+  uid: E:Enum::EOMDB_Document_Blob_Status.Parsed
+- name: '"Marked as Unread"'
+  uid: E:Enum::EOMDB_Document_Blob_Status.Marked_as_Unread
+commentId: O:Enum::EOMDB Document Blob Status
+name: '"EOMDB Document Blob Status"'
+uid: O:Enum::EOMDB_Document_Blob_Status

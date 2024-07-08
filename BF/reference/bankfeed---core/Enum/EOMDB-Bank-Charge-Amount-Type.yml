@@ -1,0 +1,24 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Charge Amount Type"'
+alId: ID 70656782
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- name: '"Amount including Charge"'
+  uid: E:Enum::EOMDB_Bank_Charge_Amount_Type.Amount_including_Charge
+- name: '"Charge Only"'
+  uid: E:Enum::EOMDB_Bank_Charge_Amount_Type.Charge_Only
+- name: '"Amount excluding Charge"'
+  uid: E:Enum::EOMDB_Bank_Charge_Amount_Type.Amount_excluding_Charge
+commentId: O:Enum::EOMDB Bank Charge Amount Type
+name: '"EOMDB Bank Charge Amount Type"'
+uid: O:Enum::EOMDB_Bank_Charge_Amount_Type

@@ -1,0 +1,24 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Payment Account Type"'
+alId: ID 70656792
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- name: Customer
+  uid: E:Enum::EOMDB_Payment_Account_Type.Customer
+- name: Vendor
+  uid: E:Enum::EOMDB_Payment_Account_Type.Vendor
+- name: Employee
+  uid: E:Enum::EOMDB_Payment_Account_Type.Employee
+commentId: O:Enum::EOMDB Payment Account Type
+name: '"EOMDB Payment Account Type"'
+uid: O:Enum::EOMDB_Payment_Account_Type

@@ -1,0 +1,57 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Accounts"'
+alId: ID 70656775
+baseKind: Query
+kind: Query
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Bank Accounts
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+- name: ReadState
+  value: ReadUncommitted
+  promoted: false
+queryColumns:
+- dataItem: Bank_Account
+  columnType:
+    name: None
+    isExternal: true
+  name: number
+  uid: C:Query::EOMDB_Bank_Accounts.Bank_Account.number
+- dataItem: Bank_Account
+  columnType:
+    name: None
+    isExternal: true
+  name: name
+  uid: C:Query::EOMDB_Bank_Accounts.Bank_Account.name
+- dataItem: Bank_Account
+  columnType:
+    name: None
+    isExternal: true
+  name: searchName
+  uid: C:Query::EOMDB_Bank_Accounts.Bank_Account.searchName
+- dataItem: Bank_Account
+  columnType:
+    name: None
+    isExternal: true
+  name: currencyCode
+  uid: C:Query::EOMDB_Bank_Accounts.Bank_Account.currencyCode
+- dataItem: Bank_Account
+  columnType:
+    name: None
+    isExternal: true
+  name: iban
+  uid: C:Query::EOMDB_Bank_Accounts.Bank_Account.iban
+commentId: O:Query::EOMDB Bank Accounts
+name: '"EOMDB Bank Accounts"'
+uid: O:Query::EOMDB_Bank_Accounts

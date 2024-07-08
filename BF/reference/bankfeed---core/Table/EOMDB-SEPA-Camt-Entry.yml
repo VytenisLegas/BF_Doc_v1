@@ -1,0 +1,378 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB SEPA Camt Entry"'
+alId: ID 70656778
+baseKind: Table
+kind: Table
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: " "
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: Removed. Use table EOMDB Bank Statement Entry with optimized keys.
+  promoted: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  name: '"Entry No."'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Entry_No#
+- type:
+    name: Guid
+    isExternal: true
+  name: '"Doc. Blob ID"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Doc#_Blob_ID
+- type:
+    name: Option
+    isExternal: true
+  name: '"Recognition Status"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Recognition_Status
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"Recognition Date-Time"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Recognition_Date-Time
+- type:
+    name: Option
+    isExternal: true
+  name: Status
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Status
+- type:
+    name: Date
+    isExternal: true
+  name: '"Operation Date"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Operation_Date
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Document No."'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Document_No#[20]
+- type:
+    name: Code[35]
+    isExternal: true
+  name: '"External Document No."'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.External_Document_No#[35]
+- type:
+    name: Code[35]
+    isExternal: true
+  name: '"Recognized Document No. Filter"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Recognized_Document_No#_Filter[35]
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"Recognized Document Exist"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Recognized_Document_Exist
+- type:
+    internalReference: O:Enum::EOMDB_SEPA_Camt_Entry_Type
+    name: '"EOMDB SEPA Camt Entry Type"'
+    isExternal: false
+  name: '"Entry Type"'
+  obsoletion:
+    state: removed
+    reason: Using different method to recognize refunds.
+    version: ""
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Entry_Type
+- type:
+    internalReference: O:Enum::EOMDB_SEPA_Camt_E#_Acc#_Type
+    name: '"EOMDB SEPA Camt E. Acc. Type"'
+    isExternal: false
+  name: '"Entry Account Type"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Entry_Account_Type
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Bank Account No."'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Bank_Account_No#[20]
+- type:
+    name: Code[10]
+    isExternal: true
+  name: '"Currency Code"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Currency_Code[10]
+- type:
+    internalReference: O:Enum::EOMDB_Account_Recognition_Type
+    name: '"EOMDB Account Recognition Type"'
+    isExternal: false
+  name: '"Account Recognition Type"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Account_Recognition_Type
+- type:
+    name: __MissingTypeSymbol__
+    isExternal: true
+  name: '"Recognized Account Type"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Recognized_Account_Type
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Recognized Account No."'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Recognized_Account_No#[20]
+- type:
+    name: __MissingTypeSymbol__
+    isExternal: true
+  name: '"Bank Fees Account Type"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Bank_Fees_Account_Type
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"Bank Fees Account No."'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Bank_Fees_Account_No#[20]
+- type:
+    name: Decimal
+    isExternal: true
+  name: Amount
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Amount
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Bank Charge"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Bank_Charge
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"Bank Charge (OCMT)"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Bank_Charge_(OCMT)
+- type:
+    name: Text[100]
+    isExternal: true
+  name: Description
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Description[100]
+- type:
+    name: Text[140]
+    isExternal: true
+  name: '"Message to Recipient"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Message_to_Recipient[140]
+- type:
+    name: Text[50]
+    isExternal: true
+  name: '"Payer Information"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Payer_Information[50]
+- type:
+    name: Text[100]
+    isExternal: true
+  name: '"Transaction Information"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Transaction_Information[100]
+- type:
+    name: Code[34]
+    isExternal: true
+  name: '"Acct.Id.IBAN"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Acct#Id#IBAN[34]
+- type:
+    name: Code[3]
+    isExternal: true
+  name: '"Acct.Ccy"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.Acct#Ccy[3]
+- type:
+    name: Text[4]
+    isExternal: true
+  name: '"N.BkTxCd.Domn.Cd"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#BkTxCd#Domn#Cd[4]
+- type:
+    name: Text[4]
+    isExternal: true
+  name: '"N.BkTxCd.Domn.Fmly.Cd"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#BkTxCd#Domn#Fmly#Cd[4]
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"N.BkTxCd.Domn.Prtry.Cd"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#BkTxCd#Domn#Prtry#Cd[35]
+- type:
+    name: Text[4]
+    isExternal: true
+  name: '"N.BkTxCd.Domn.Fmly.SubFmlyCd"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#BkTxCd#Domn#Fmly#SubFmlyCd[4]
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"N.ND.TD.Refs.AcctSvcrRef"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#Refs#AcctSvcrRef[35]
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"N.ND.TD.Refs.InstrId"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#Refs#InstrId[35]
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"N.AcctSvcrRef"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#AcctSvcrRef[35]
+- type:
+    name: Option
+    isExternal: true
+  name: '"N.CdtDbtInd"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#CdtDbtInd
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"N.Amt"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#Amt
+- type:
+    name: Date
+    isExternal: true
+  name: '"N.BookDt.Dt"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#BookDt#Dt
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"N.BookDt.DtTm"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#BookDt#DtTm
+- type:
+    name: Date
+    isExternal: true
+  name: '"N.ValDt.Dt"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ValDt#Dt
+- type:
+    name: DateTime
+    isExternal: true
+  name: '"N.ValDt.DtTm"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ValDt#DtTm
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"N.RvslInd"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#RvslInd
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"N.ND.TD.Chrgs.Amt"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#Chrgs#Amt
+- type:
+    name: Code[34]
+    isExternal: true
+  name: '"N.ND.TD.RP.DbtrAcct.Id.IBAN"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RP#DbtrAcct#Id#IBAN[34]
+- type:
+    name: Text[140]
+    isExternal: true
+  name: '"N.ND.TD.RP.Dbtr.Nm"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RP#Dbtr#Nm[140]
+- type:
+    name: Text[34]
+    isExternal: true
+  name: '"N.ND.TD.RP.DbtrAcct.Id.Othr.Id"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RP#DbtrAcct#Id#Othr#Id[34]
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"N.ND.TD.RP.D.Id.OrgId.Othr.Id"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RP#D#Id#OrgId#Othr#Id[35]
+- type:
+    name: Code[34]
+    isExternal: true
+  name: '"N.ND.TD.RP.CdtrAcct.Id.IBAN"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RP#CdtrAcct#Id#IBAN[34]
+- type:
+    name: Text[140]
+    isExternal: true
+  name: '"N.ND.TD.RP.Cdtr.Nm"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RP#Cdtr#Nm[140]
+- type:
+    name: Text[34]
+    isExternal: true
+  name: '"N.ND.TD.RP.CdtrAcct.Id.Othr.Id"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RP#CdtrAcct#Id#Othr#Id[34]
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"N.ND.TD.RP.C.Id.OrgId.Othr.Id"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RP#C#Id#OrgId#Othr#Id[35]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"N.ND.TD.RmtInf.Ustrd"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RmtInf#Ustrd[250]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"N.ND.TD.RmtInf.Ustrd 2"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RmtInf#Ustrd_2[250]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"N.ND.TD.RmtInf.Ustrd 3"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RmtInf#Ustrd_3[250]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"N.ND.TD.RmtInf.Ustrd 4"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RmtInf#Ustrd_4[250]
+- type:
+    name: Blob
+    isExternal: true
+  name: '"N.ND.TD.RmtInf.Ustrd Blob"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RmtInf#Ustrd_Blob
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"N.ND.TD.RI.S.CRI.Ref"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#RI#S#CRI#Ref[35]
+- type:
+    name: Text[35]
+    isExternal: true
+  name: '"N.ND.TD.Refs.EndToEndId"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#Refs#EndToEndId[35]
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"N.ND.TD.AD.TxAmt.Amt"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#AD#TxAmt#Amt
+- type:
+    name: Code[3]
+    isExternal: true
+  name: '"N.ND.TD.AD.TxAmt.Amt.Ccy"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#ND#TD#AD#TxAmt#Amt#Ccy[3]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"N.AddtlNtryInf"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#AddtlNtryInf[250]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"N.AddtlNtryInf 2"'
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.N#AddtlNtryInf_2[250]
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemId
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemCreatedAt
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemCreatedBy
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  name: SystemModifiedAt
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  name: SystemModifiedBy
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  name: SystemRowVersion
+  uid: F:Table::EOMDB_SEPA_Camt_Entry.SystemRowVersion
+commentId: O:Table::EOMDB SEPA Camt Entry
+name: '"EOMDB SEPA Camt Entry"'
+obsoletion:
+  state: pending
+  reason: Removed. Use table EOMDB Bank Statement Entry with optimized keys.
+  version: ""
+uid: O:Table::EOMDB_SEPA_Camt_Entry

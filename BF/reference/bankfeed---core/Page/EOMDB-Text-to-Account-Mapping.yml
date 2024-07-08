@@ -1,0 +1,40 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Text-to-Account Mapping"'
+alId: ID 70656778
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Text-to-Account_Mapping
+  name: '"EOMDB Text-to-Account Mapping"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Text-to-Account Mapping (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: Administration
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "70656781"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Text-to-Account_Mapping
+    name: '"EOMDB Text-to-Account Mapping"'
+    isExternal: false
+- name: AutoSplitKey
+  value: "True"
+  promoted: false
+commentId: O:Page::EOMDB Text-to-Account Mapping
+name: '"EOMDB Text-to-Account Mapping"'
+uid: O:Page::EOMDB_Text-to-Account_Mapping

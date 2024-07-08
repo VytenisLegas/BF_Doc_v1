@@ -1,0 +1,67 @@
+﻿### YamlMime:BusinessCentralObsoletionList
+tag: "22.0"
+groups:
+- groupName: "22.0"
+  symbols:
+  - kind: Codeunit
+    internalReference: O:Codeunit::EOMDB_Bank_Statement_Mgt#
+    name: Codeunit 70656789 "EOMDB Bank Statement Mgt."
+    reason: Removed codeunit that should be internal.
+  - kind: Field
+    internalReference: F:Table::EOMDB_Bank_Statement.Bank_Account_ID[34]
+    name: '"Bank Account ID": Code[34]'
+    reason: Replaced by field EOMDB Provider Bank Account ID.
+  - kind: Table
+    internalReference: O:Table::EOMDB_Bank_Statement_Entry
+    name: Table 70656786 "EOMDB Bank Statement Entry"
+    reason: Replaced by table EOMDB Posted Statement Line.
+  - kind: Field
+    internalReference: F:Table::EOMDB_Bank_Statement_Entry.Recognition_Status
+    name: '"Recognition Status": Option'
+    reason: Replaced by field Recognition Status 2.
+  - kind: Table
+    internalReference: O:Table::EOMDB_Bank_Statement_Line
+    name: Table 70656785 "EOMDB Bank Statement Line"
+    reason: Replaced by table EOMDB Statement Line.
+  - kind: Field
+    internalReference: F:Table::EOMDB_Bank_Statement_Line.Recognition_Status
+    name: '"Recognition Status": Option'
+    reason: Replaced by field Recognition Status 2.
+  - kind: Field
+    internalReference: F:Table::EOMDB_Integration_Setup.Docura_Bank_Data_Provider_Code[20]
+    name: '"Docura Bank Data Provider Code": Code[20]'
+    reason: Replaced with field "Def. Bank Data Provider Code"
+  - kind: Table
+    internalReference: O:Table::EOMDB_Recognized_Document
+    name: Table 70656777 "EOMDB Recognized Document"
+    reason: Replaced with a new table EOMDB Recogn. Document
+  - kind: Field
+    internalReference: F:TableExtension::EOMDB_Bank_Account.EOMDB_Bank_Account_ID[34]
+    name: '"EOMDB Bank Account ID": Code[34]'
+    reason: Replaced by field EOMDB Provider Bank Account ID.
+  - kind: Field
+    internalReference: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_Recognition_Status
+    name: '"EOMDB Recognition Status": Option'
+    reason: Replaced by field EOMDB Recognition Status 2.
+  - kind: Page
+    internalReference: O:Page::EOMDB_Bank_Statement_Entries
+    name: Page 70656787 "EOMDB Bank Statement Entries"
+    reason: Replaced by page EOMDB Posted Transactions.
+  - kind: Page
+    internalReference: O:Page::EOMDB_Bank_Statement_Lines
+    name: Page 70656786 "EOMDB Bank Statement Lines"
+    reason: Replaced by page EOMDB Posted Statement Lines.
+  - kind: Page
+    internalReference: O:Page::EOMDB_Recognized_Doc#_FactBox
+    name: Page 70656777 "EOMDB Recognized Doc. FactBox"
+    reason: Replaced with a new page EOMDB Recogn. Document FactBox
+  - kind: Report
+    internalReference: O:Report::EOMDB_Edit_Bank_Stmt#_Lines
+    name: Report 70656781 "EOMDB Edit Bank Stmt. Lines"
+    reason: Replace by report EOMDB Edit Unp. Transactions.
+  - kind: EnumValue
+    internalReference: E:Enum::EOMDB_Document_Blob_Source.Docura#net
+    name: Enum Value "Docura.net"
+    reason: Replaced by enum value Web Service.
+  uid: N:Module::Bankfeed_-_Core_obsolete_by_22.0#22.0
+uid: N:Module::Bankfeed_-_Core_obsolete_by_22.0

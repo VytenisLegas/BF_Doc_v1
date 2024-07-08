@@ -1,0 +1,46 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Payment Registers"'
+alId: ID 70656781
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Payment_Register
+  name: '"EOMDB Payment Register"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+- name: Caption
+  value: Payment Registers (Bankfeed)
+  promoted: false
+- name: AdditionalSearchTerms
+  value: payment file export,bank file export,re-export payment file,payment history
+  promoted: false
+- name: UsageCategory
+  value: History
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "70656803"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Payment_Register
+    name: '"EOMDB Payment Register"'
+    isExternal: false
+- name: Editable
+  value: "False"
+  promoted: false
+commentId: O:Page::EOMDB Payment Registers
+name: '"EOMDB Payment Registers"'
+uid: O:Page::EOMDB_Payment_Registers

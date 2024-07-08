@@ -1,0 +1,33 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Document Blob Source"'
+alId: ID 70656780
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- name: '" "'
+  uid: E:Enum::EOMDB_Document_Blob_Source._
+- name: '"Manual Upload"'
+  uid: E:Enum::EOMDB_Document_Blob_Source.Manual_Upload
+- name: '"Docura.net"'
+  obsoletion:
+    state: pending
+    reason: Replaced by enum value Web Service.
+    version: "22.0"
+  uid: E:Enum::EOMDB_Document_Blob_Source.Docura#net
+- name: '"Web Service"'
+  uid: E:Enum::EOMDB_Document_Blob_Source.Web_Service
+commentId: O:Enum::EOMDB Document Blob Source
+name: '"EOMDB Document Blob Source"'
+uid: O:Enum::EOMDB_Document_Blob_Source

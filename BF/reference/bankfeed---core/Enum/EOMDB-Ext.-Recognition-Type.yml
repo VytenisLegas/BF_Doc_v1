@@ -1,0 +1,24 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Ext. Recognition Type"'
+alId: ID 70656787
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- name: '" "'
+  uid: E:Enum::EOMDB_Ext#_Recognition_Type._
+- name: Similarity
+  uid: E:Enum::EOMDB_Ext#_Recognition_Type.Similarity
+- name: '"Text to Account"'
+  uid: E:Enum::EOMDB_Ext#_Recognition_Type.Text_to_Account
+commentId: O:Enum::EOMDB Ext# Recognition Type
+name: '"EOMDB Ext. Recognition Type"'
+uid: O:Enum::EOMDB_Ext#_Recognition_Type

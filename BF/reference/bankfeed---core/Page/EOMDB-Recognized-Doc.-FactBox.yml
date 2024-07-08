@@ -1,0 +1,50 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Recognized Doc. FactBox"'
+alId: ID 70656777
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Recognized_Document
+  name: '"EOMDB Recognized Document"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Recognized Documents FactBox
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "70656777"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Recognized_Document
+    name: '"EOMDB Recognized Document"'
+    isExternal: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: Replaced with a new page EOMDB Recogn. Document FactBox
+  promoted: false
+- name: ObsoleteTag
+  value: "22.0"
+  promoted: false
+commentId: O:Page::EOMDB Recognized Doc# FactBox
+name: '"EOMDB Recognized Doc. FactBox"'
+obsoletion:
+  state: pending
+  reason: Replaced with a new page EOMDB Recogn. Document FactBox
+  version: "22.0"
+uid: O:Page::EOMDB_Recognized_Doc#_FactBox

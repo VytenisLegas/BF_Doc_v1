@@ -1,0 +1,149 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Http Helper"'
+alId: ID 70656777
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure Get(_HttpClient: HttpClient, Uri: Text, var _HttpResponseMessage: HttpResponseMessage)'
+    parameters:
+    - id: _HttpClient
+      parameterType:
+        name: HttpClient
+        isExternal: true
+    - id: Uri
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: _HttpResponseMessage
+      parameterType:
+        name: HttpResponseMessage
+        isExternal: true
+  name: Get
+  uid: M:Codeunit::EOMDB_Http_Helper.Get(HttpClient,Text,HttpResponseMessage@)
+- syntax:
+    content: 'procedure Put(_HttpClient: HttpClient, Uri: Text, _HttpContent: HttpContent, var _HttpResponseMessage: HttpResponseMessage)'
+    parameters:
+    - id: _HttpClient
+      parameterType:
+        name: HttpClient
+        isExternal: true
+    - id: Uri
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: _HttpContent
+      parameterType:
+        name: HttpContent
+        isExternal: true
+    - id: _HttpResponseMessage
+      parameterType:
+        name: HttpResponseMessage
+        isExternal: true
+  name: Put
+  uid: M:Codeunit::EOMDB_Http_Helper.Put(HttpClient,Text,HttpContent,HttpResponseMessage@)
+- syntax:
+    content: 'procedure Post(_HttpClient: HttpClient, Uri: Text, _HttpContent: HttpContent, var _HttpResponseMessage: HttpResponseMessage)'
+    parameters:
+    - id: _HttpClient
+      parameterType:
+        name: HttpClient
+        isExternal: true
+    - id: Uri
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: _HttpContent
+      parameterType:
+        name: HttpContent
+        isExternal: true
+    - id: _HttpResponseMessage
+      parameterType:
+        name: HttpResponseMessage
+        isExternal: true
+  name: Post
+  uid: M:Codeunit::EOMDB_Http_Helper.Post(HttpClient,Text,HttpContent,HttpResponseMessage@)
+- syntax:
+    content: 'procedure Delete(_HttpClient: HttpClient, Uri: Text, var _HttpResponseMessage: HttpResponseMessage)'
+    parameters:
+    - id: _HttpClient
+      parameterType:
+        name: HttpClient
+        isExternal: true
+    - id: Uri
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: _HttpResponseMessage
+      parameterType:
+        name: HttpResponseMessage
+        isExternal: true
+  name: Delete
+  uid: M:Codeunit::EOMDB_Http_Helper.Delete(HttpClient,Text,HttpResponseMessage@)
+- syntax:
+    content: 'procedure Send(_HttpClient: HttpClient, Method: Text, Uri: Text, _HttpContent: HttpContent, var _HttpResponseMessage: HttpResponseMessage)'
+    parameters:
+    - id: _HttpClient
+      parameterType:
+        name: HttpClient
+        isExternal: true
+    - id: Method
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Uri
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: _HttpContent
+      parameterType:
+        name: HttpContent
+        isExternal: true
+    - id: _HttpResponseMessage
+      parameterType:
+        name: HttpResponseMessage
+        isExternal: true
+  name: Send
+  uid: M:Codeunit::EOMDB_Http_Helper.Send(HttpClient,Text,Text,HttpContent,HttpResponseMessage@)
+- syntax:
+    content: 'procedure Send(_HttpClient: HttpClient, _HttpRequestMessage: HttpRequestMessage, var _HttpResponseMessage: HttpResponseMessage)'
+    parameters:
+    - id: _HttpClient
+      parameterType:
+        name: HttpClient
+        isExternal: true
+    - id: _HttpRequestMessage
+      parameterType:
+        name: HttpRequestMessage
+        isExternal: true
+    - id: _HttpResponseMessage
+      parameterType:
+        name: HttpResponseMessage
+        isExternal: true
+  name: Send
+  uid: M:Codeunit::EOMDB_Http_Helper.Send(HttpClient,HttpRequestMessage,HttpResponseMessage@)
+- syntax:
+    content: 'procedure ReadHttpContentAsText(_HttpContent: HttpContent): Text'
+    parameters:
+    - id: _HttpContent
+      parameterType:
+        name: HttpContent
+        isExternal: true
+    return:
+      returnType:
+        name: Text
+        isExternal: true
+  name: ReadHttpContentAsText
+  uid: M:Codeunit::EOMDB_Http_Helper.ReadHttpContentAsText(HttpContent):Text
+commentId: O:Codeunit::EOMDB Http Helper
+name: '"EOMDB Http Helper"'
+uid: O:Codeunit::EOMDB_Http_Helper

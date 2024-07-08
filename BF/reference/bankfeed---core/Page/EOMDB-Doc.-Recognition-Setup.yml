@@ -1,0 +1,40 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Doc. Recognition Setup"'
+alId: ID 70656782
+baseKind: Page
+kind: Page
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::EOMDB_Doc#_Recognition_Setup
+  name: '"EOMDB Doc. Recognition Setup"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Document Recognition Setup (Bankfeed)
+  promoted: false
+- name: UsageCategory
+  value: Lists
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "70656780"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::EOMDB_Doc#_Recognition_Setup
+    name: '"EOMDB Doc. Recognition Setup"'
+    isExternal: false
+- name: AutoSplitKey
+  value: "True"
+  promoted: false
+commentId: O:Page::EOMDB Doc# Recognition Setup
+name: '"EOMDB Doc. Recognition Setup"'
+uid: O:Page::EOMDB_Doc#_Recognition_Setup

@@ -1,0 +1,240 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Vendor Recognitions"'
+alId: ID 70656787
+baseKind: Query
+kind: Query
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Vendor Recognitions
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+- name: ReadState
+  value: ReadUncommitted
+  promoted: false
+- name: OrderBy
+  value: descending(Vend_Entry_No_)
+  promoted: false
+queryColumns:
+- dataItem: EOMDB_Bank_Statement_Entry
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: Statement_Bank_Account_No_
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Statement_Bank_Account_No_
+- dataItem: EOMDB_Bank_Statement_Entry
+  columnType:
+    name: Code[35]
+    isExternal: true
+  name: Statement_External_Document_No_
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Statement_External_Document_No_
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Entry_No_
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Entry_No_
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Vendor_No_
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Vendor_No_
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Vendor_Name
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Vendor_Name
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Posting_Date
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Posting_Date
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Document_Type
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Document_Type
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Document_No_
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Document_No_
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Description
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Description
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Currency_Code
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Currency_Code
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Amount
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Amount
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Remaining_Amount
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Remaining_Amount
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Open
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Open
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Due_Date
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Due_Date
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Document_Date
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Document_Date
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Payment_Method_Code
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Payment_Method_Code
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Payment_Reference
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Payment_Reference
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: Vend_Recipient_Bank_Account
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Vend_Recipient_Bank_Account
+- dataItem: Detailed_Vendor_Ledg__Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Application_Amount
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Application_Amount
+- dataItem: Detailed_Vendor_Ledg__Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Application_Posting_Date
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Application_Posting_Date
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Entry_No_
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Entry_No_
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Posting_Date
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Posting_Date
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Document_Type
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Document_Type
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Document_No_
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Document_No_
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Description
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Description
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Currency_Code
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Currency_Code
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Purchase__LCY_
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Purchase__LCY_
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Amount
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Amount
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Remaining_Amount
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Remaining_Amount
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Open
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Open
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Due_Date
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Due_Date
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Document_Date
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Document_Date
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Payment_Method_Code
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Payment_Method_Code
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Payment_Reference
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Payment_Reference
+- dataItem: Vendor_Ledger_Entry2
+  columnType:
+    name: None
+    isExternal: true
+  name: Applied_Vend_Recipient_Bank_Account
+  uid: C:Query::EOMDB_Vendor_Recognitions.EOMDB_Bank_Statement_Entry.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.Detailed_Vendor_Ledg__Entry2.Vendor_Ledger_Entry2.Applied_Vend_Recipient_Bank_Account
+commentId: O:Query::EOMDB Vendor Recognitions
+name: '"EOMDB Vendor Recognitions"'
+uid: O:Query::EOMDB_Vendor_Recognitions

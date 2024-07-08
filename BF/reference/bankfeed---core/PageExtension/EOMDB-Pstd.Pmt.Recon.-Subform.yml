@@ -1,0 +1,13 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Pstd.Pmt.Recon. Subform"'
+alId: ID 70656781
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::EOMDB Pstd#Pmt#Recon# Subform
+name: '"EOMDB Pstd.Pmt.Recon. Subform"'
+uid: O:PageExtension::EOMDB_Pstd#Pmt#Recon#_Subform

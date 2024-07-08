@@ -1,0 +1,123 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Bank Statement Lines"'
+alId: ID 70656789
+baseKind: Query
+kind: Query
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Bank Statement Lines
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+- name: ReadState
+  value: ReadUncommitted
+  promoted: false
+queryColumns:
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Code[20]
+    isExternal: true
+  name: bankAccountNumber
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.bankAccountNumber
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Code[35]
+    isExternal: true
+  name: externalDocumentNumber
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.externalDocumentNumber
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Code[50]
+    isExternal: true
+  name: bankAccountIban
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.bankAccountIban
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Text[250]
+    isExternal: true
+  name: bankAccountId
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.bankAccountId
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Code[3]
+    isExternal: true
+  name: accountCurrency
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.accountCurrency
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: '"EOMDB Transaction Type"'
+    isExternal: true
+  name: transactionType
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.transactionType
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Decimal
+    isExternal: true
+  name: statementAmount
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.statementAmount
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Date
+    isExternal: true
+  name: operationDate
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.operationDate
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Decimal
+    isExternal: true
+  name: statementChargesAmount
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.statementChargesAmount
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Code[34]
+    isExternal: true
+  name: debtorIban
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.debtorIban
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Text[140]
+    isExternal: true
+  name: debtorName
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.debtorName
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Code[34]
+    isExternal: true
+  name: creditorIban
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.creditorIban
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Text[140]
+    isExternal: true
+  name: creditorName
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.creditorName
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Text[250]
+    isExternal: true
+  name: transactionText
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.transactionText
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Text[35]
+    isExternal: true
+  name: endToEndId
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.endToEndId
+- dataItem: EOMDB_Bank_Statement_Line
+  columnType:
+    name: Text[500]
+    isExternal: true
+  name: additionalTransactionInfo
+  uid: C:Query::EOMDB_Bank_Statement_Lines.EOMDB_Bank_Statement_Line.additionalTransactionInfo
+commentId: O:Query::EOMDB Bank Statement Lines
+name: '"EOMDB Bank Statement Lines"'
+uid: O:Query::EOMDB_Bank_Statement_Lines

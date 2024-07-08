@@ -1,0 +1,63 @@
+﻿### YamlMime:BusinessCentralObsoletionList
+tag: '[Untagged]'
+groups:
+- groupName: ""
+  symbols:
+  - kind: Field
+    internalReference: F:Table::EOMDB_Bank_Statement_Entry.Bank_Charge_(OCMT)
+    name: '"Bank Charge (OCMT)": Decimal'
+    reason: Replaced by Bank Charge Recognition Setup feature.
+  - kind: Field
+    internalReference: F:Table::EOMDB_Bank_Statement_Line.Bank_Charge_(OCMT)
+    name: '"Bank Charge (OCMT)": Decimal'
+    reason: Replaced by Bank Charge Recognition Setup feature.
+  - kind: Field
+    internalReference: F:Table::EOMDB_Document_Blob.Status
+    name: 'Status: Option'
+    reason: Replaced with field Document Blob Status
+  - kind: Field
+    internalReference: F:Table::EOMDB_Document_Blob.Upgrade_Tag
+    name: '"Upgrade Tag": Integer'
+    reason: Unused.
+  - kind: Field
+    internalReference: F:Table::EOMDB_Integration_Setup.Bank_Fees_Account_No#[20]
+    name: '"Bank Fees Account No.": Code[20]'
+    reason: Use new bank fees account nos.
+  - kind: Field
+    internalReference: F:Table::EOMDB_Integration_Setup.SEPA_Income_Charge_Subfamily[4]
+    name: '"SEPA Income Charge Subfamily": Text[4]'
+    reason: Use field SEPA Income Charge Subfamilies that is a filter.
+  - kind: Field
+    internalReference: F:Table::EOMDB_Integration_Setup.SEPA_Currency_Exchange_Op#[4]
+    name: '"SEPA Currency Exchange Op.": Text[4]'
+    reason: Removed unused field.
+  - kind: Field
+    internalReference: F:Table::EOMDB_Integration_Setup.Currency_Exchange_Account_No#[20]
+    name: '"Currency Exchange Account No.": Code[20]'
+    reason: Unused. Replaced with text-to-account mapping feature
+  - kind: Field
+    internalReference: F:Table::EOMDB_Integration_Setup.SEPA_OCMT_Charge_Account_No#[20]
+    name: '"SEPA OCMT Charge Account No.": Code[20]'
+    reason: Replaced by Bank Charge Recognition Setup feature.
+  - kind: Field
+    internalReference: F:Table::EOMDB_Integration_Setup.Financial_Statement_API_Key[100]
+    name: '"Financial Statement API Key": Text[100]'
+    reason: The API Key has been moved to Isolated Storage. Use GetApiKeyFromIsolatedStorage/SetApiKeyToIsolatedStorage to retrieve or set the API Key.
+  - kind: Field
+    internalReference: F:Table::EOMDB_Integration_Setup.Automatic_Processing
+    name: '"Automatic Processing": Boolean'
+    reason: Removed unused field.
+  - kind: Table
+    internalReference: O:Table::EOMDB_SEPA_Camt_Entry
+    name: Table 70656778 "EOMDB SEPA Camt Entry"
+    reason: Removed. Use table EOMDB Bank Statement Entry with optimized keys.
+  - kind: Field
+    internalReference: F:Table::EOMDB_SEPA_Camt_Entry.Entry_Type
+    name: '"Entry Type": Enum 70656777 "EOMDB SEPA Camt Entry Type"'
+    reason: Using different method to recognize refunds.
+  - kind: Enum
+    internalReference: O:Enum::EOMDB_SEPA_Camt_Entry_Type
+    name: Enum 70656777 "EOMDB SEPA Camt Entry Type"
+    reason: Using different method to recognize refunds.
+  uid: N:Module::Bankfeed_-_Core_obsolete_by_[Untagged]#
+uid: N:Module::Bankfeed_-_Core_obsolete_by_[Untagged]

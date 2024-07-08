@@ -1,0 +1,13 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Posted Payment Reconc."'
+alId: ID 70656782
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::EOMDB Posted Payment Reconc#
+name: '"EOMDB Posted Payment Reconc."'
+uid: O:PageExtension::EOMDB_Posted_Payment_Reconc#

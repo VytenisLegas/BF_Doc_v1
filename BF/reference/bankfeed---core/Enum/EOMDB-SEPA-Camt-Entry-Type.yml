@@ -1,0 +1,35 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB SEPA Camt Entry Type"'
+alId: ID 70656777
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteReason
+  value: Using different method to recognize refunds.
+  promoted: false
+enumValues:
+- name: '" "'
+  uid: E:Enum::EOMDB_SEPA_Camt_Entry_Type._
+- name: Credit
+  uid: E:Enum::EOMDB_SEPA_Camt_Entry_Type.Credit
+- name: Debit
+  uid: E:Enum::EOMDB_SEPA_Camt_Entry_Type.Debit
+- name: '"Credit Reversal"'
+  uid: E:Enum::EOMDB_SEPA_Camt_Entry_Type.Credit_Reversal
+- name: '"Debit Reversal"'
+  uid: E:Enum::EOMDB_SEPA_Camt_Entry_Type.Debit_Reversal
+commentId: O:Enum::EOMDB SEPA Camt Entry Type
+name: '"EOMDB SEPA Camt Entry Type"'
+obsoletion:
+  state: pending
+  reason: Using different method to recognize refunds.
+  version: ""
+uid: O:Enum::EOMDB_SEPA_Camt_Entry_Type

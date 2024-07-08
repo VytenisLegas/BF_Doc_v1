@@ -1,0 +1,96 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Progress Item"'
+alId: ID 70656786
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure Error(ErrorText: Text, CallStack: Text, Log: Boolean, Critical: Boolean)'
+    parameters:
+    - id: ErrorText
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: CallStack
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Log
+      parameterType:
+        name: Boolean
+        isExternal: true
+    - id: Critical
+      parameterType:
+        name: Boolean
+        isExternal: true
+  name: Error
+  uid: M:Codeunit::EOMDB_Progress_Item.Error(Text,Text,Boolean,Boolean)
+- syntax:
+    content: procedure ShowLastErrorIfHadAny()
+  name: ShowLastErrorIfHadAny
+  uid: M:Codeunit::EOMDB_Progress_Item.ShowLastErrorIfHadAny
+- syntax:
+    content: 'procedure SetStatusText(StatusText: Text)'
+    parameters:
+    - id: StatusText
+      parameterType:
+        name: Text
+        isExternal: true
+  name: SetStatusText
+  uid: M:Codeunit::EOMDB_Progress_Item.SetStatusText(Text)
+- syntax:
+    content: procedure CountStart()
+  name: CountStart
+  uid: M:Codeunit::EOMDB_Progress_Item.CountStart
+- syntax:
+    content: procedure CountSkip()
+  name: CountSkip
+  uid: M:Codeunit::EOMDB_Progress_Item.CountSkip
+- syntax:
+    content: procedure CountSuccess()
+  name: CountSuccess
+  uid: M:Codeunit::EOMDB_Progress_Item.CountSuccess
+- syntax:
+    content: 'procedure GetStartCount(): Integer'
+    return:
+      returnType:
+        name: Integer
+        isExternal: true
+  name: GetStartCount
+  uid: M:Codeunit::EOMDB_Progress_Item.GetStartCount:Integer
+- syntax:
+    content: 'procedure GetSuccessesCount(): Integer'
+    return:
+      returnType:
+        name: Integer
+        isExternal: true
+  name: GetSuccessesCount
+  uid: M:Codeunit::EOMDB_Progress_Item.GetSuccessesCount:Integer
+- syntax:
+    content: 'procedure GetSkipCount(): Integer'
+    return:
+      returnType:
+        name: Integer
+        isExternal: true
+  name: GetSkipCount
+  uid: M:Codeunit::EOMDB_Progress_Item.GetSkipCount:Integer
+- syntax:
+    content: 'procedure GetFailuresCount(): Integer'
+    return:
+      returnType:
+        name: Integer
+        isExternal: true
+  name: GetFailuresCount
+  uid: M:Codeunit::EOMDB_Progress_Item.GetFailuresCount:Integer
+commentId: O:Codeunit::EOMDB Progress Item
+name: '"EOMDB Progress Item"'
+uid: O:Codeunit::EOMDB_Progress_Item

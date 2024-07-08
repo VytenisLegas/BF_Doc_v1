@@ -1,0 +1,78 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Vendor Applications"'
+alId: ID 70656784
+baseKind: Query
+kind: Query
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Vendor Applications
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: DataAccessIntent
+  value: ReadOnly
+  promoted: false
+- name: ReadState
+  value: ReadUncommitted
+  promoted: false
+- name: OrderBy
+  value: descending(entryNumber)
+  promoted: false
+queryColumns:
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: entryNumber
+  uid: C:Query::EOMDB_Vendor_Applications.Vendor_Ledger_Entry.entryNumber
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: vendorNumber
+  uid: C:Query::EOMDB_Vendor_Applications.Vendor_Ledger_Entry.vendorNumber
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: postingDate
+  uid: C:Query::EOMDB_Vendor_Applications.Vendor_Ledger_Entry.postingDate
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: documentType
+  uid: C:Query::EOMDB_Vendor_Applications.Vendor_Ledger_Entry.documentType
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: documentNumber
+  uid: C:Query::EOMDB_Vendor_Applications.Vendor_Ledger_Entry.documentNumber
+- dataItem: Vendor_Ledger_Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: remainingAmount
+  uid: C:Query::EOMDB_Vendor_Applications.Vendor_Ledger_Entry.remainingAmount
+- dataItem: Detailed_Vendor_Ledg__Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: applicationAmount
+  uid: C:Query::EOMDB_Vendor_Applications.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.applicationAmount
+- dataItem: Detailed_Vendor_Ledg__Entry
+  columnType:
+    name: None
+    isExternal: true
+  name: applicationCreatedDateTime
+  uid: C:Query::EOMDB_Vendor_Applications.Vendor_Ledger_Entry.Detailed_Vendor_Ledg__Entry.applicationCreatedDateTime
+commentId: O:Query::EOMDB Vendor Applications
+name: '"EOMDB Vendor Applications"'
+uid: O:Query::EOMDB_Vendor_Applications

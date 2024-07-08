@@ -1,0 +1,35 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Runner Operation"'
+alId: ID 70656798
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- name: '" "'
+  uid: E:Enum::EOMDB_Runner_Operation._
+- name: '"Receive Transaction Data"'
+  uid: E:Enum::EOMDB_Runner_Operation.Receive_Transaction_Data
+- name: '"Import Transaction Data"'
+  uid: E:Enum::EOMDB_Runner_Operation.Import_Transaction_Data
+- name: '"Fill Journals"'
+  uid: E:Enum::EOMDB_Runner_Operation.Fill_Journals
+- name: '"Fill Journal"'
+  uid: E:Enum::EOMDB_Runner_Operation.Fill_Journal
+- name: '"Post Journals"'
+  uid: E:Enum::EOMDB_Runner_Operation.Post_Journals
+- name: '"Post Journal"'
+  uid: E:Enum::EOMDB_Runner_Operation.Post_Journal
+commentId: O:Enum::EOMDB Runner Operation
+name: '"EOMDB Runner Operation"'
+uid: O:Enum::EOMDB_Runner_Operation

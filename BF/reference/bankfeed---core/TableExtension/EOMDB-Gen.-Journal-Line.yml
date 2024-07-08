@@ -1,0 +1,85 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"EOMDB Gen. Journal Line"'
+alId: ID 70656776
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Bankfeed_-_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Option
+    isExternal: true
+  name: '"EOMDB Recognition Status"'
+  obsoletion:
+    state: pending
+    reason: Replaced by field EOMDB Recognition Status 2.
+    version: "22.0"
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_Recognition_Status
+- type:
+    internalReference: O:Enum::EOMDB_Recognition_Status
+    name: '"EOMDB Recognition Status"'
+    isExternal: false
+  name: '"EOMDB Recognition Status 2"'
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_Recognition_Status_2
+- type:
+    internalReference: O:Enum::EOMDB_Account_Recognition_Type
+    name: '"EOMDB Account Recognition Type"'
+    isExternal: false
+  name: '"EOMDB Account Recognition Type"'
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_Account_Recognition_Type
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"EOMDB M. SEPA Camt E. Exists"'
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_M#_SEPA_Camt_E#_Exists
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"EOMDB Docu-Bank"'
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_Docu-Bank
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"EOMDB Initial Applied Amount"'
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_Initial_Applied_Amount
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"EOMDB Initial Application Full"'
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_Initial_Application_Full
+- type:
+    name: Code[20]
+    isExternal: true
+  name: '"EOMDB Bank Account No."'
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_Bank_Account_No#[20]
+- type:
+    name: Text[250]
+    isExternal: true
+  name: '"EOMDB Transaction ID"'
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_Transaction_ID[250]
+- type:
+    name: BigInteger
+    isExternal: true
+  name: '"EOMDB Stmt. Line No."'
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_Stmt#_Line_No#
+- type:
+    name: Decimal
+    isExternal: true
+  name: '"EOMDB Transaction Amount"'
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_Transaction_Amount
+- type:
+    name: Code[3]
+    isExternal: true
+  name: '"EOMDB Transaction Currency"'
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_Transaction_Currency[3]
+- type:
+    name: Boolean
+    isExternal: true
+  name: '"EOMDB Exported to Payment File"'
+  uid: F:TableExtension::EOMDB_Gen#_Journal_Line.EOMDB_Exported_to_Payment_File
+commentId: O:TableExtension::EOMDB Gen# Journal Line
+name: '"EOMDB Gen. Journal Line"'
+uid: O:TableExtension::EOMDB_Gen#_Journal_Line
